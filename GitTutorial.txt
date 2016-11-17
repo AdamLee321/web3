@@ -9,7 +9,7 @@ git clone https://github.com/s00174787/web3.git (use insert key to paste)
 
 How to commit changes and push files
 
-git add . - to add all files
+git add . - to add all files changed
 
 git status  - to see fies and their status
 
@@ -29,3 +29,5 @@ when your finished working pull again
 git commit add your message 
 
 and finally git push to put up all your work on the repository.
+
+kkkkk
