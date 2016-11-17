@@ -1,4 +1,4 @@
-<h1>READ ME</h1>
+<h1>README</h1>
 
 Year 3 project of a ticket booking website
 
