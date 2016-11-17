@@ -2,8 +2,10 @@ Git Tutorial
 Copy GitHub Repo to you local computer in Git Bash
 
 git init
+
 git clone https://github.com/s00174787/web3.git (use insert key to paste)
-git remote add origin https://github.com/s00174787/web3.git
+
+#git remote add origin https://github.com/s00174787/web3.git
 
 How to commit changes and push files
 
@@ -17,6 +19,7 @@ git log <- to see the message
 
 git push origin master (push the master branch to origin remote)
 
+*******************************************************************************************************************************************
 Complete
 
 git pull everytime your  about to work on the project
@@ -25,4 +28,4 @@ when your finished working pull again
 
 git commit add your message 
 
-and push
+and finally git push to put up all your work on the repository.
