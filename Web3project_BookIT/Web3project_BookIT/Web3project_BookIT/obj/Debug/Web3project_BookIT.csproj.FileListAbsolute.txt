@@ -1,0 +1,268 @@
+c:\users\adaml\onedrive\documents\visual studio 2015\Projects\Web3project_BookIT\Web3project_BookIT\bin\ApplicationInsights.config
+c:\users\adaml\onedrive\documents\visual studio 2015\Projects\Web3project_BookIT\Web3project_BookIT\bin\roslyn\csc.exe
+c:\users\adaml\onedrive\documents\visual studio 2015\Projects\Web3project_BookIT\Web3project_BookIT\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\adaml\onedrive\documents\visual studio 2015\Projects\Web3project_BookIT\Web3project_BookIT\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\adaml\onedrive\documents\visual studio 2015\Projects\Web3project_BookIT\Web3project_BookIT\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\adaml\onedrive\documents\visual studio 2015\Projects\Web3project_BookIT\Web3project_BookIT\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\adaml\onedrive\documents\visual studio 2015\Projects\Web3project_BookIT\Web3project_BookIT\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\adaml\onedrive\documents\visual studio 2015\Projects\Web3project_BookIT\Web3project_BookIT\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\adaml\onedrive\documents\visual studio 2015\Projects\Web3project_BookIT\Web3project_BookIT\bin\roslyn\System.Collections.Immutable.dll
+c:\users\adaml\onedrive\documents\visual studio 2015\Projects\Web3project_BookIT\Web3project_BookIT\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\adaml\onedrive\documents\visual studio 2015\Projects\Web3project_BookIT\Web3project_BookIT\bin\roslyn\vbc.exe
+c:\users\adaml\onedrive\documents\visual studio 2015\Projects\Web3project_BookIT\Web3project_BookIT\bin\roslyn\VBCSCompiler.exe
+c:\users\adaml\onedrive\documents\visual studio 2015\Projects\Web3project_BookIT\Web3project_BookIT\bin\roslyn\VBCSCompiler.exe.config
+c:\users\adaml\onedrive\documents\visual studio 2015\Projects\Web3project_BookIT\Web3project_BookIT\bin\Web3project_BookIT.dll.config
+c:\users\adaml\onedrive\documents\visual studio 2015\Projects\Web3project_BookIT\Web3project_BookIT\bin\Web3project_BookIT.dll
+c:\users\adaml\onedrive\documents\visual studio 2015\Projects\Web3project_BookIT\Web3project_BookIT\bin\Web3project_BookIT.pdb
+c:\users\adaml\onedrive\documents\visual studio 2015\Projects\Web3project_BookIT\Web3project_BookIT\bin\Antlr3.Runtime.dll
+c:\users\adaml\onedrive\documents\visual studio 2015\Projects\Web3project_BookIT\Web3project_BookIT\bin\AspNet.ScriptManager.bootstrap.dll
+c:\users\adaml\onedrive\documents\visual studio 2015\Projects\Web3project_BookIT\Web3project_BookIT\bin\AspNet.ScriptManager.jQuery.dll
+c:\users\adaml\onedrive\documents\visual studio 2015\Projects\Web3project_BookIT\Web3project_BookIT\bin\EntityFramework.dll
+c:\users\adaml\onedrive\documents\visual studio 2015\Projects\Web3project_BookIT\Web3project_BookIT\bin\EntityFramework.SqlServer.dll
+c:\users\adaml\onedrive\documents\visual studio 2015\Projects\Web3project_BookIT\Web3project_BookIT\bin\Microsoft.AI.Agent.Intercept.dll
+c:\users\adaml\onedrive\documents\visual studio 2015\Projects\Web3project_BookIT\Web3project_BookIT\bin\Microsoft.AI.DependencyCollector.dll
+c:\users\adaml\onedrive\documents\visual studio 2015\Projects\Web3project_BookIT\Web3project_BookIT\bin\Microsoft.AI.PerfCounterCollector.dll
+c:\users\adaml\onedrive\documents\visual studio 2015\Projects\Web3project_BookIT\Web3project_BookIT\bin\Microsoft.AI.ServerTelemetryChannel.dll
+c:\users\adaml\onedrive\documents\visual studio 2015\Projects\Web3project_BookIT\Web3project_BookIT\bin\Microsoft.AI.Web.dll
+c:\users\adaml\onedrive\documents\visual studio 2015\Projects\Web3project_BookIT\Web3project_BookIT\bin\Microsoft.AI.WindowsServer.dll
+c:\users\adaml\onedrive\documents\visual studio 2015\Projects\Web3project_BookIT\Web3project_BookIT\bin\Microsoft.ApplicationInsights.dll
+c:\users\adaml\onedrive\documents\visual studio 2015\Projects\Web3project_BookIT\Web3project_BookIT\bin\Microsoft.AspNet.FriendlyUrls.dll
+c:\users\adaml\onedrive\documents\visual studio 2015\Projects\Web3project_BookIT\Web3project_BookIT\bin\Microsoft.AspNet.Identity.Core.dll
+c:\users\adaml\onedrive\documents\visual studio 2015\Projects\Web3project_BookIT\Web3project_BookIT\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+c:\users\adaml\onedrive\documents\visual studio 2015\Projects\Web3project_BookIT\Web3project_BookIT\bin\Microsoft.AspNet.Identity.Owin.dll
+c:\users\adaml\onedrive\documents\visual studio 2015\Projects\Web3project_BookIT\Web3project_BookIT\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+c:\users\adaml\onedrive\documents\visual studio 2015\Projects\Web3project_BookIT\Web3project_BookIT\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\adaml\onedrive\documents\visual studio 2015\Projects\Web3project_BookIT\Web3project_BookIT\bin\Microsoft.Owin.dll
+c:\users\adaml\onedrive\documents\visual studio 2015\Projects\Web3project_BookIT\Web3project_BookIT\bin\Microsoft.Owin.Host.SystemWeb.dll
+c:\users\adaml\onedrive\documents\visual studio 2015\Projects\Web3project_BookIT\Web3project_BookIT\bin\Microsoft.Owin.Security.Cookies.dll
+c:\users\adaml\onedrive\documents\visual studio 2015\Projects\Web3project_BookIT\Web3project_BookIT\bin\Microsoft.Owin.Security.dll
+c:\users\adaml\onedrive\documents\visual studio 2015\Projects\Web3project_BookIT\Web3project_BookIT\bin\Microsoft.Owin.Security.Facebook.dll
+c:\users\adaml\onedrive\documents\visual studio 2015\Projects\Web3project_BookIT\Web3project_BookIT\bin\Microsoft.Owin.Security.Google.dll
+c:\users\adaml\onedrive\documents\visual studio 2015\Projects\Web3project_BookIT\Web3project_BookIT\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+c:\users\adaml\onedrive\documents\visual studio 2015\Projects\Web3project_BookIT\Web3project_BookIT\bin\Microsoft.Owin.Security.OAuth.dll
+c:\users\adaml\onedrive\documents\visual studio 2015\Projects\Web3project_BookIT\Web3project_BookIT\bin\Microsoft.Owin.Security.Twitter.dll
+c:\users\adaml\onedrive\documents\visual studio 2015\Projects\Web3project_BookIT\Web3project_BookIT\bin\Microsoft.ScriptManager.MSAjax.dll
+c:\users\adaml\onedrive\documents\visual studio 2015\Projects\Web3project_BookIT\Web3project_BookIT\bin\Microsoft.ScriptManager.WebForms.dll
+c:\users\adaml\onedrive\documents\visual studio 2015\Projects\Web3project_BookIT\Web3project_BookIT\bin\Microsoft.Web.Infrastructure.dll
+c:\users\adaml\onedrive\documents\visual studio 2015\Projects\Web3project_BookIT\Web3project_BookIT\bin\Newtonsoft.Json.dll
+c:\users\adaml\onedrive\documents\visual studio 2015\Projects\Web3project_BookIT\Web3project_BookIT\bin\Owin.dll
+c:\users\adaml\onedrive\documents\visual studio 2015\Projects\Web3project_BookIT\Web3project_BookIT\bin\System.Web.Optimization.dll
+c:\users\adaml\onedrive\documents\visual studio 2015\Projects\Web3project_BookIT\Web3project_BookIT\bin\System.Web.Providers.dll
+c:\users\adaml\onedrive\documents\visual studio 2015\Projects\Web3project_BookIT\Web3project_BookIT\bin\WebGrease.dll
+c:\users\adaml\onedrive\documents\visual studio 2015\Projects\Web3project_BookIT\Web3project_BookIT\bin\Microsoft.AI.DependencyCollector.xml
+c:\users\adaml\onedrive\documents\visual studio 2015\Projects\Web3project_BookIT\Web3project_BookIT\bin\Microsoft.AI.ServerTelemetryChannel.xml
+c:\users\adaml\onedrive\documents\visual studio 2015\Projects\Web3project_BookIT\Web3project_BookIT\bin\Microsoft.AI.Web.xml
+c:\users\adaml\onedrive\documents\visual studio 2015\Projects\Web3project_BookIT\Web3project_BookIT\bin\Microsoft.AI.WindowsServer.xml
+c:\users\adaml\onedrive\documents\visual studio 2015\Projects\Web3project_BookIT\Web3project_BookIT\bin\Microsoft.ApplicationInsights.xml
+c:\users\adaml\onedrive\documents\visual studio 2015\Projects\Web3project_BookIT\Web3project_BookIT\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\adaml\onedrive\documents\visual studio 2015\Projects\Web3project_BookIT\Web3project_BookIT\bin\System.Web.Optimization.xml
+c:\users\adaml\onedrive\documents\visual studio 2015\Projects\Web3project_BookIT\Web3project_BookIT\bin\Antlr3.Runtime.pdb
+c:\users\adaml\onedrive\documents\visual studio 2015\Projects\Web3project_BookIT\Web3project_BookIT\bin\Newtonsoft.Json.xml
+c:\users\adaml\onedrive\documents\visual studio 2015\Projects\Web3project_BookIT\Web3project_BookIT\bin\Microsoft.AspNet.FriendlyUrls.xml
+c:\users\adaml\onedrive\documents\visual studio 2015\Projects\Web3project_BookIT\Web3project_BookIT\bin\EntityFramework.xml
+c:\users\adaml\onedrive\documents\visual studio 2015\Projects\Web3project_BookIT\Web3project_BookIT\bin\EntityFramework.SqlServer.xml
+c:\users\adaml\onedrive\documents\visual studio 2015\Projects\Web3project_BookIT\Web3project_BookIT\bin\Microsoft.AspNet.Identity.Core.xml
+c:\users\adaml\onedrive\documents\visual studio 2015\Projects\Web3project_BookIT\Web3project_BookIT\bin\Microsoft.AspNet.Identity.Owin.xml
+c:\users\adaml\onedrive\documents\visual studio 2015\Projects\Web3project_BookIT\Web3project_BookIT\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+c:\users\adaml\onedrive\documents\visual studio 2015\Projects\Web3project_BookIT\Web3project_BookIT\bin\System.Web.Providers.xml
+c:\users\adaml\onedrive\documents\visual studio 2015\Projects\Web3project_BookIT\Web3project_BookIT\bin\Microsoft.Owin.xml
+c:\users\adaml\onedrive\documents\visual studio 2015\Projects\Web3project_BookIT\Web3project_BookIT\bin\Microsoft.Owin.Host.SystemWeb.xml
+c:\users\adaml\onedrive\documents\visual studio 2015\Projects\Web3project_BookIT\Web3project_BookIT\bin\Microsoft.Owin.Security.xml
+c:\users\adaml\onedrive\documents\visual studio 2015\Projects\Web3project_BookIT\Web3project_BookIT\bin\Microsoft.Owin.Security.Facebook.xml
+c:\users\adaml\onedrive\documents\visual studio 2015\Projects\Web3project_BookIT\Web3project_BookIT\bin\Microsoft.Owin.Security.Cookies.xml
+c:\users\adaml\onedrive\documents\visual studio 2015\Projects\Web3project_BookIT\Web3project_BookIT\bin\Microsoft.Owin.Security.Google.xml
+c:\users\adaml\onedrive\documents\visual studio 2015\Projects\Web3project_BookIT\Web3project_BookIT\bin\Microsoft.Owin.Security.Twitter.xml
+c:\users\adaml\onedrive\documents\visual studio 2015\Projects\Web3project_BookIT\Web3project_BookIT\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+c:\users\adaml\onedrive\documents\visual studio 2015\Projects\Web3project_BookIT\Web3project_BookIT\bin\Microsoft.Owin.Security.OAuth.xml
+c:\users\adaml\onedrive\documents\visual studio 2015\Projects\Web3project_BookIT\Web3project_BookIT\obj\Debug\Web3project_BookIT.csprojResolveAssemblyReference.cache
+c:\users\adaml\onedrive\documents\visual studio 2015\Projects\Web3project_BookIT\Web3project_BookIT\obj\Debug\Web3project_BookIT.dll
+c:\users\adaml\onedrive\documents\visual studio 2015\Projects\Web3project_BookIT\Web3project_BookIT\obj\Debug\Web3project_BookIT.pdb
+D:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\obj\Debug\Web3project_BookIT.csprojResolveAssemblyReference.cache
+D:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\obj\Debug\Web3project_BookIT.dll
+D:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\obj\Debug\Web3project_BookIT.pdb
+D:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\ApplicationInsights.config
+D:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\roslyn\csc.exe
+D:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\roslyn\System.Collections.Immutable.dll
+D:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\roslyn\System.Reflection.Metadata.dll
+D:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\roslyn\vbc.exe
+D:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\roslyn\VBCSCompiler.exe
+D:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\roslyn\VBCSCompiler.exe.config
+D:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\Web3project_BookIT.dll.config
+D:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\Web3project_BookIT.dll
+D:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\Web3project_BookIT.pdb
+D:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\Antlr3.Runtime.dll
+D:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\AspNet.ScriptManager.bootstrap.dll
+D:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\AspNet.ScriptManager.jQuery.dll
+D:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\EntityFramework.dll
+D:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\EntityFramework.SqlServer.dll
+D:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\Microsoft.AI.DependencyCollector.dll
+D:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\Microsoft.AI.Web.dll
+D:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\Microsoft.AI.WindowsServer.dll
+D:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\Microsoft.ApplicationInsights.dll
+D:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\Microsoft.AspNet.FriendlyUrls.dll
+D:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+D:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\Microsoft.Owin.dll
+D:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\Microsoft.Owin.Security.dll
+D:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\Microsoft.Owin.Security.Google.dll
+D:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\Microsoft.ScriptManager.MSAjax.dll
+D:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\Microsoft.ScriptManager.WebForms.dll
+D:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\Microsoft.Web.Infrastructure.dll
+D:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\Newtonsoft.Json.dll
+D:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\Owin.dll
+D:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\Stripe.net.dll
+D:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\System.Web.Helpers.dll
+D:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\System.Web.Mvc.dll
+D:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\System.Web.Optimization.dll
+D:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\System.Web.Providers.dll
+D:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\System.Web.Razor.dll
+D:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\System.Web.WebPages.Deployment.dll
+D:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\System.Web.WebPages.dll
+D:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\System.Web.WebPages.Razor.dll
+D:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\WebGrease.dll
+D:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\Microsoft.AI.DependencyCollector.xml
+D:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\Microsoft.AI.Web.xml
+D:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\Microsoft.AI.WindowsServer.xml
+D:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\Microsoft.ApplicationInsights.xml
+D:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\Newtonsoft.Json.xml
+D:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\Stripe.net.xml
+D:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\System.Web.Helpers.xml
+D:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\System.Web.Mvc.xml
+D:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\System.Web.Razor.xml
+D:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\System.Web.WebPages.xml
+D:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\System.Web.WebPages.Deployment.xml
+D:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\System.Web.WebPages.Razor.xml
+D:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\System.Web.Optimization.xml
+D:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\Antlr3.Runtime.pdb
+D:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\Microsoft.AspNet.FriendlyUrls.xml
+D:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\EntityFramework.xml
+D:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\EntityFramework.SqlServer.xml
+D:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\System.Web.Providers.xml
+D:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\Microsoft.Owin.xml
+D:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\Microsoft.Owin.Security.xml
+D:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\Microsoft.Owin.Security.Google.xml
+D:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\Microsoft.Owin.Security.OAuth.xml
+E:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\ApplicationInsights.config
+E:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\roslyn\csc.exe
+E:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\roslyn\System.Collections.Immutable.dll
+E:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\roslyn\System.Reflection.Metadata.dll
+E:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\roslyn\vbc.exe
+E:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\roslyn\VBCSCompiler.exe
+E:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\roslyn\VBCSCompiler.exe.config
+E:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\Web3project_BookIT.dll.config
+E:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\Web3project_BookIT.dll
+E:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\Web3project_BookIT.pdb
+E:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\Antlr3.Runtime.dll
+E:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\AspNet.ScriptManager.bootstrap.dll
+E:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\AspNet.ScriptManager.jQuery.dll
+E:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\EntityFramework.dll
+E:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\EntityFramework.SqlServer.dll
+E:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\Microsoft.AI.Agent.Intercept.dll
+E:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\Microsoft.AI.DependencyCollector.dll
+E:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\Microsoft.AI.Web.dll
+E:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\Microsoft.AI.WindowsServer.dll
+E:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\Microsoft.ApplicationInsights.dll
+E:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\Microsoft.AspNet.FriendlyUrls.dll
+E:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\Microsoft.AspNet.Identity.Core.dll
+E:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+E:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\Microsoft.Owin.dll
+E:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\Microsoft.Owin.Security.Cookies.dll
+E:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\Microsoft.Owin.Security.dll
+E:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\Microsoft.Owin.Security.Facebook.dll
+E:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\Microsoft.Owin.Security.Google.dll
+E:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\Microsoft.Owin.Security.OAuth.dll
+E:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\Microsoft.Owin.Security.Twitter.dll
+E:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\Microsoft.ScriptManager.MSAjax.dll
+E:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\Microsoft.ScriptManager.WebForms.dll
+E:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\Microsoft.Web.Infrastructure.dll
+E:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\Newtonsoft.Json.dll
+E:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\Owin.dll
+E:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\Stripe.net.dll
+E:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\System.Web.Helpers.dll
+E:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\System.Web.Mvc.dll
+E:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\System.Web.Optimization.dll
+E:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\System.Web.Providers.dll
+E:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\System.Web.Razor.dll
+E:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\System.Web.WebPages.Deployment.dll
+E:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\System.Web.WebPages.dll
+E:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\System.Web.WebPages.Razor.dll
+E:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\WebGrease.dll
+E:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\Microsoft.AI.DependencyCollector.xml
+E:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\Microsoft.AI.Web.xml
+E:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\Microsoft.AI.WindowsServer.xml
+E:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\Microsoft.ApplicationInsights.xml
+E:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\Newtonsoft.Json.xml
+E:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\Stripe.net.xml
+E:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\System.Web.Helpers.xml
+E:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\System.Web.Mvc.xml
+E:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\System.Web.Razor.xml
+E:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\System.Web.WebPages.xml
+E:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\System.Web.WebPages.Deployment.xml
+E:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\System.Web.WebPages.Razor.xml
+E:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\System.Web.Optimization.xml
+E:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\Antlr3.Runtime.pdb
+E:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\Microsoft.AspNet.FriendlyUrls.xml
+E:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\EntityFramework.xml
+E:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\EntityFramework.SqlServer.xml
+E:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\Microsoft.AspNet.Identity.Core.xml
+E:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\System.Web.Providers.xml
+E:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\Microsoft.Owin.xml
+E:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\Microsoft.Owin.Security.xml
+E:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\Microsoft.Owin.Security.Facebook.xml
+E:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\Microsoft.Owin.Security.Cookies.xml
+E:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\Microsoft.Owin.Security.Google.xml
+E:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\Microsoft.Owin.Security.Twitter.xml
+E:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\bin\Microsoft.Owin.Security.OAuth.xml
+E:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\obj\Debug\Web3project_BookIT.csprojResolveAssemblyReference.cache
+E:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\obj\Debug\Web3project_BookIT.dll
+E:\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\obj\Debug\Web3project_BookIT.pdb
+\\Client\E$\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\obj\Debug\Web3project_BookIT.csprojResolveAssemblyReference.cache
+\\Client\E$\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\obj\Debug\Web3project_BookIT.dll
+\\Client\E$\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\obj\Debug\Web3project_BookIT.pdb
