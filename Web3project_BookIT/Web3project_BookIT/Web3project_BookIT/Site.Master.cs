@@ -72,7 +72,10 @@ namespace Web3project_BookIT
 
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            if (HttpContext.Current.User.IsInRole("canEdit"))
+            {
+                adminLink.Visible = true;
+            }
         }
 
         protected void Page_PreRender(object sender, EventArgs e)
@@ -95,7 +98,6 @@ namespace Web3project_BookIT
         {
             Context.GetOwinContext().Authentication.SignOut(DefaultAuthenticationTypes.ApplicationCookie);
         }
-
     }
 
 }

@@ -8,6 +8,7 @@ using System.Web.Security;
 using System.Web.SessionState;
 using System.Data.Entity;
 using Web3project_BookIT.Models;
+using Web3project_BookIT.Logic;
 
 namespace Web3project_BookIT
 {
@@ -21,6 +22,11 @@ namespace Web3project_BookIT
 
             // Initialize the ticket database.
             Database.SetInitializer(new TicketDatabaseInitializer());
+
+            //Create the custom role and user
+            RoleActions roleActions = new RoleActions();
+            roleActions.AddUserAndRole();
+
         }
     }
 }

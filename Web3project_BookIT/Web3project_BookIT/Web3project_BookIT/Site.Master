@@ -24,7 +24,6 @@
     <form runat="server">
         <asp:ScriptManager runat="server">
             <Scripts>
-                <%--To learn more about bundling scripts in ScriptManager see http://go.microsoft.com/fwlink/?LinkID=301884 --%>
                 <%--Framework Scripts--%>
                 <asp:ScriptReference Name="MsAjaxBundle" />
                 <asp:ScriptReference Name="jquery" />
@@ -55,8 +54,9 @@
                 </div>
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
+                        <li><a runat="server" id="adminLink" visible="false" 
+                            href="~/Admin/AdminPage">Admin</a></li>
                         <li><a runat="server" href="~/">Home</a></li>
-                        <li><a runat="server" href="~/Tickets">Other Tickets</a></li>
                         <li><a runat="server" href="~/About">About</a></li>
                         <li><a runat="server" href="~/Contact">Contact</a></li>
                         <li><a runat="server" href="~/TicketList">Events</a></li>
@@ -83,7 +83,7 @@
         </div>
         <div id="TitleContent" style="text-align: center">
             <a runat="server" href="~/">
-                <asp:Image  ID="Image1" runat="server" ImageUrl="~assests/img/head.jpg" BorderStyle="None" />
+                <asp:Image  ID="Image1" runat="server" ImageUrl="~/Images/Bookit_FAVICON.png" BorderStyle="None" />
             </a>  
             <br />  
         </div>
