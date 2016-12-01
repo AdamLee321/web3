@@ -38,45 +38,37 @@
         <strong>
             <asp:Label ID="LabelTotalText" runat="server" Text="Order Total: "></asp:Label>
             <asp:Label ID="lblTotal" runat="server" EnableViewState="false"></asp:Label>
-        </strong> 
-    </div>
-    <br />
-    <table> 
-    <tr>
-      <td>
+            <td>
         <asp:Button ID="UpdateBtn" runat="server" Text="Update" OnClick="UpdateBtn_Click" />
       </td>
-      <td>
-        <!--PayPal Checkout Button-->
+        </strong> 
+        <tr>
+      
+      <%--<td>
         <asp:ImageButton ID="CheckoutImageBtn" runat="server" 
                       ImageUrl="https://www.paypal.com/en_US/i/btn/btn_xpressCheckout.gif" 
                       Width="145" AlternateText="Check out with PayPal" 
                       OnClick="CheckoutBtn_Click" 
                       BackColor="Transparent" BorderWidth="0" />
-      </td>
-       
-        <td>
-            <form action="ShoppingCart.aspx" method="POST">
-<script
-  src="https://checkout.stripe.com/checkout.js" class="stripe-button"
-
-  data-key="pk_test_VaUXp0vgAMBDqVmd1sJAUkm8"
-  data-amount='<%= lblTotal %>';
-  data-name="BookIT Payment"
-  data-description="Pay Here"
-  data-image="https://stripe.com/img/documentation/checkout/marketplace.png"
-  data-locale="auto"
-  data-zip-code="true"
-  data-currency="eur">
-
-</script>
-</form>
-        </td>
+      </td>--%>
     </tr>
-    </table>
-    
-      <script src="assets/plugins/jquery-1.10.2.js"></script>   
-    <script src="assets/plugins/bootstrap.js"></script>
-    <script src="assets/plugins/4jquery.parallax-1.1.3.js"></script>
-    <script src="assets/js/custom.js"></script>
+    </div>
+    <br />
+    <td>
+            <form action="ShoppingCart.aspx" method="POST">
+            <script
+            src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+
+               data-key="pk_test_VaUXp0vgAMBDqVmd1sJAUkm8"
+               data-amount='<%= lblTotal %>';
+               data-name="BookIT Payment"
+               data-description="Pay Here"
+               data-image="https://stripe.com/img/documentation/checkout/marketplace.png"
+               data-locale="auto"
+               data-zip-code="true"
+               data-currency="eur">
+
+            </script>
+            </form>
+        </td>
 </asp:Content>

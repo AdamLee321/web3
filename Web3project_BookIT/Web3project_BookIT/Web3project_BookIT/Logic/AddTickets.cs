@@ -8,13 +8,15 @@ namespace Web3project_BookIT.Logic
 {
     public class AddTickets
     {
-        public bool AddTicket(string TicketName, string TicketTime, string TicketDate, string TicketDesc, string TicketPrice, string TicketCategory, string TicketImagePath)
+
+        public bool AddTicket(string TicketName, string TicketTime, string TicketDate, string TicketDesc, string TicketVenue, string TicketPrice, string TicketCategory, string TicketImagePath)
         {
             var myTicket = new Ticket();
             myTicket.TicketName = TicketName;
             myTicket.TicketTime = TicketTime;
             myTicket.TicketDate = TicketDate;
             myTicket.Description = TicketDesc;
+            myTicket.TicketVenue = TicketVenue;
             myTicket.UnitPrice = Convert.ToDouble(TicketPrice);
             myTicket.ImagePath = TicketImagePath;
             myTicket.CategoryID = Convert.ToInt32(TicketCategory);

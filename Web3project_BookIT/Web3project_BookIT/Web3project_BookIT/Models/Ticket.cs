@@ -22,6 +22,8 @@ namespace Web3project_BookIT.Models
 
         public string TicketTime { get; set; }
 
+        public string TicketVenue { get; set; }
+
         public string ImagePath { get; set; }
 
         [Display(Name = "Price")]

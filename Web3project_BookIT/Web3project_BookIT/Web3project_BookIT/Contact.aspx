@@ -9,7 +9,26 @@
    
     <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
     <h2><%: Title %>.</h2>
-    <h3>Your contact page.</h3>
+    <div class="form-horizontal">
+    <h3>Contact Us.</h3>
+        <div class="form-group">
+        
+            <asp:TextBox ID="TextBox1" runat="server" Width="186px" BackColor="#27C00A" BorderColor="Black"></asp:TextBox>
+        
+            <br />
+            <br />
+            <asp:TextBox ID="TextBox2" runat="server" Width="186px" BackColor="#27C00A" BorderColor="Black"></asp:TextBox>
+            <br />
+            <br />
+            <asp:TextBox ID="TextBox3" runat="server" Height="60px" Width="186px" BackColor="#27C00A" BorderColor="Black" TextMode="MultiLine"></asp:TextBox>
+        
+            <br />
+            <br />
+            <asp:Button ID="Button1" runat="server" style="margin-left: 16px" Text="Send" Width="75px" />
+        
+            </div>
+        
+        </div>
     <address>
         123 Sligo IT<br />
         Sligo, Ireland<br />
@@ -27,4 +46,5 @@
     <script src="assets/plugins/bootstrap.js"></script>
     <script src="assets/plugins/4jquery.parallax-1.1.3.js"></script>
     <script src="assets/js/custom.js"></script>
+     </div>
 </asp:Content>

@@ -57,7 +57,7 @@ namespace Web3project_BookIT.Admin
 
                 // Add ticket data to DB.
                 AddTickets Tickets = new AddTickets();
-                bool addSuccess = Tickets.AddTicket(AddTicketName.Text, AddTicketTime.Text, AddTicketDate.Text, AddTicketDescription.Text,
+                bool addSuccess = Tickets.AddTicket(AddTicketName.Text, AddTicketTime.Text, AddTicketDate.Text, AddTicketDescription.Text, AddTicketVenue.Text,
                     AddTicketPrice.Text, DropDownAddCategory.SelectedValue, TicketImage.FileName);
                 if (addSuccess)
                 {

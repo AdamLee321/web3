@@ -281,8 +281,7 @@
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Images\Bookit_FAVICON.png" />
-    <Content Include="script.js" />
-    <Content Include="Script2.js" />
+    <Content Include="Scripts\script.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Admin\Web.config" />
@@ -504,6 +503,7 @@
     <Compile Include="Logic\PaypalFunctions.cs" />
     <Compile Include="Logic\RoleActions.cs" />
     <Compile Include="Logic\ShoppingCartActions.cs" />
+    <Compile Include="Logic\StripePayments.cs" />
     <Compile Include="Models\CartItem.cs" />
     <Compile Include="Models\Category.cs" />
     <Compile Include="Models\IdentityModels.cs" />

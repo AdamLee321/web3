@@ -52,6 +52,14 @@
             </td>
         </tr>
         <tr>
+            <td><asp:Label ID="LabelTicketVenue" runat="server">Venue:</asp:Label></td>
+            <td>
+                <asp:TextBox ID="AddTicketVenue" runat="server"></asp:TextBox>
+                <asp:RequiredFieldValidator ID="RequiredFieldValidator7" runat="server" Text="* Venue required." ControlToValidate="AddTicketVenue" SetFocusOnError="true" Display="Dynamic"></asp:RequiredFieldValidator>
+                <asp:RegularExpressionValidator ID="RegularExpressionValidator7" runat="server" Text="* Venue name required $." ControlToValidate="AddTicketVenue" SetFocusOnError="True" Display="Dynamic" ValidationExpression="^[0-9]*(\.)?[0-9]?[0-9]?$"></asp:RegularExpressionValidator>
+            </td>
+        </tr>
+        <tr>
             <td><asp:Label ID="LabelAddImageFile" runat="server">Image File:</asp:Label></td>
             <td>
                 <asp:FileUpload ID="TicketImage" runat="server" />

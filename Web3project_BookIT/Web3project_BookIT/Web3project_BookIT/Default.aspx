@@ -96,7 +96,8 @@
                         <i class="fa fa-desktop fa-4x main-color"></i>
 
 
-                       <a href="Login.aspx"><h3>Register With Us</h3></a>
+                       <a href="Account/Register.aspx"><h3>Register With Us</h3></a>
+                        
                         <p>
                             Sign up for an account and get started going to your favourite events today.
                         </p>
@@ -113,8 +114,7 @@
 
                         <h3>Video Tutorial </h3>
                         <p>
-                           We will have a video tutorial very soon for users that are still finding it difficult
-                           to navigate through our site.
+                           This will give you a detailed walkthrough of our site and how to use it.
                         </p>
 
                     </div>
@@ -137,16 +137,16 @@
                         <div class="panel-body">
                             <ul class="nav nav-pills" style="background-color: #ECECEC;">
                                 <li class="active">
-                                    <a href="#home-pills" data-toggle="tab">Home</a>
+                                    <a href="#home-pills" data-toggle="tab">Sports</a>
                                 </li>
                                 <li class="">
-                                    <a href="#profile-pills" data-toggle="tab">Profile</a>
+                                    <a href="#profile-pills" data-toggle="tab">Music</a>
                                 </li>
                                 <li class="">
-                                    <a href="#messages-pills" data-toggle="tab">Messages</a>
+                                    <a href="#messages-pills" data-toggle="tab">Arts</a>
                                 </li>
                                 <li class="">
-                                    <a href="#settings-pills" data-toggle="tab">Settings</a>
+                                    <a href="#settings-pills" data-toggle="tab">Comedy</a>
                                 </li>
                             </ul>
 

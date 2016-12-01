@@ -9,6 +9,9 @@ using Web3project_BookIT.Models;
 using System.Collections.Specialized;
 using System.Collections;
 using System.Web.ModelBinding;
+using Stripe;
+using System.Threading.Tasks;
+using System.Globalization;
 
 namespace Web3project_BookIT
 {
@@ -33,7 +36,7 @@ namespace Web3project_BookIT
                     lblTotal.Text = "";
                     ShoppingCartTitle.InnerText = "Shopping Cart is Empty";
                     UpdateBtn.Visible = false;
-                    CheckoutImageBtn.Visible = false;
+                    //CheckoutImageBtn.Visible = false;
 
                 }
             }
@@ -89,16 +92,16 @@ namespace Web3project_BookIT
         {
             UpdateCartItems();
         }
-        //PayPal Update Event Handler
-        protected void CheckoutBtn_Click(object sender, ImageClickEventArgs e)
-        {
-            using (ShoppingCartActions usersShoppingCart = new ShoppingCartActions())
-            {
-                Session["payment_amt"] = usersShoppingCart.GetTotal();
-            }
-            Response.Redirect("Checkout/CheckoutStart.aspx");
-        }
+        ////PayPal Update Event Handler
+        //protected void CheckoutBtn_Click(object sender, ImageClickEventArgs e)
+        //{
+        //    using (ShoppingCartActions usersShoppingCart = new ShoppingCartActions())
+        //    {
+        //        Session["payment_amt"] = usersShoppingCart.GetTotal();
+        //    }
+        //    Response.Redirect("Checkout/CheckoutStart.aspx");
+        //}
+        
 
-       
     }
 }

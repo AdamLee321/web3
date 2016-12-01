@@ -1,0 +1,13 @@
+# build
+[Bb]uild/
+[Dd]ebug/
+[Pp]ackages/
+[Rr]elease/
+*.nupkg
+
+# user 
+*.user
+.vs
+.vscode
+
+project.lock.json
