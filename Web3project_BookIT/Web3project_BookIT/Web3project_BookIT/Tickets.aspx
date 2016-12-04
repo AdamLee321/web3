@@ -72,7 +72,63 @@
   var map = new google.maps.Map(mapCanvas, mapOptions);
 }
 </script>
+         <main class="container">
 
+            <h1 class="jumbotron">Price quotation</h1>
+
+            <div class="form-group">
+                <div class="col-sm-12">
+                    <asp:Label ID="MessageLabel" runat="server" Text=""></asp:Label>
+                </div>
+            </div>
+
+            <div class="form-group">
+
+                <label class="col-sm-3 control-label">Sales price</label>
+                <div class="col-sm-3">
+                    <asp:TextBox ID="txtSalesPrice" runat="server" CssClass="form-control bold">100</asp:TextBox>
+                </div>
+                <div class="col-sm-6">
+                    <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="txtSalesPrice"
+                        Display="Dynamic" ErrorMessage="Required" CssClass="text-danger"></asp:RequiredFieldValidator>
+                    <asp:RangeValidator ID="RangeValidator1" runat="server" ControlToValidate="txtSalesPrice"
+                        Display="Dynamic" ErrorMessage="Must be from 10 to 1000" CssClass="text-danger"
+                        MaximumValue="1000" MinimumValue="10" Type="Double"></asp:RangeValidator>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="col-sm-3 control-label">Discount percent</label>
+                <div class="col-sm-3">
+                    <asp:TextBox ID="txtDiscountPercent" runat="server" CssClass="form-control">20</asp:TextBox>
+                </div>
+                <div class="col-sm-6">
+                    <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ControlToValidate="txtDiscountPercent"
+                        Display="Dynamic" ErrorMessage="Required" CssClass="text-danger"></asp:RequiredFieldValidator>
+                    <asp:RangeValidator ID="RangeValidator2" runat="server" ControlToValidate="txtDiscountPercent" Display="Dynamic"
+                        ErrorMessage="Must be from 10 to 50" CssClass="text-danger"
+                        MaximumValue="50" MinimumValue="10" Type="Double"></asp:RangeValidator>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="col-sm-3 control-label">Discount amount</label>
+                <asp:Label ID="lblDiscountAmount" runat="server" CssClass="col-sm-3 bold"></asp:Label>
+            </div>
+
+            <div class="form-group">
+                <label class="col-sm-3 control-label">Total price</label>
+                <asp:Label ID="lblTotalPrice" runat="server" CssClass="col-sm-3 bold"></asp:Label>
+            </div>
+
+            <div class="form-group">
+                <div class="col-sm-offset-3 col-sm-3">
+                    <asp:Button ID="btnCalculate" runat="server" Text="Calculate"
+                        OnClick="btnCalculate_Click" CssClass="btn btn-primary" />
+                </div>
+            </div>
+
+        </main>
 <script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>
     <script src="https://maps.googleapis.com/maps/api/js" async defer></script>
     </div>
