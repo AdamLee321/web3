@@ -46,9 +46,6 @@
         </div>
     </div>
     <div class="container">
-        <asp:Button ID="button1" runat="server" OnClick="button1_Click" />
-    </div>
-    <div class="container">
         <h2>Ticketmaster widget</h2>
            <div id="ev1" w-type="event-discovery" w-tmapikey="M2t2GVVu0fVlZlucU1G5tif4GYAvoKx7" w-googleapikey="AIzaSyBQrJ5ECXDaXVlICIdUBOe8impKIGHDzdA" w-keyword="Music" w-theme="simple" w-colorscheme="light" w-width="250" w-height="500" w-size="25" w-border="0" w-borderradius="4" w-postalcode="0000" w-radius="25" w-country="" w-period="year" w-layout="vertical" w-attractionid="" w-promoterid="" w-venueid="" w-affiliateid="" w-segmentid="" w-proportion="custom"></div>
            <div id="ev2" w-type="event-discovery" w-tmapikey="M2t2GVVu0fVlZlucU1G5tif4GYAvoKx7" w-googleapikey="AIzaSyBQrJ5ECXDaXVlICIdUBOe8impKIGHDzdA" w-keyword="Sport" w-theme="simple" w-colorscheme="light" w-width="250" w-height="500" w-size="25" w-border="0" w-borderradius="4" w-postalcode="0000" w-radius="25" w-country="" w-period="year" w-layout="vertical" w-attractionid="" w-promoterid="" w-venueid="" w-affiliateid="" w-segmentid="" w-proportion="custom" w-countrycode="IE"></div>
