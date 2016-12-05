@@ -59,7 +59,7 @@
             <script
             src="https://checkout.stripe.com/checkout.js" class="stripe-button"
 
-               data-key="pk_test_VaUXp0vgAMBDqVmd1sJAUkm8"
+               data-key="pk_live_XYNTHZOWZnu7ZG40LwmeCjNI"
                data-amount='<%= lblTotal %>';
                data-name="BookIT Payment"
                data-description="Pay Here"
