@@ -39,7 +39,8 @@
             <asp:Label ID="LabelTotalText" runat="server" Text="Order Total: "></asp:Label>
             <asp:Label ID="lblTotal" runat="server" EnableViewState="false"></asp:Label>
             <td>
-        <asp:Button ID="UpdateBtn" runat="server" Text="Update" OnClick="UpdateBtn_Click" />
+                <asp:Button id="Update" runat="server" OnClick="Update_Click" Text="Update"></asp:Button>
+        <%--<asp:Button ID="UpdateBtn" runat="server" Text="Update" OnClick="UpdateBtn_Click" />--%>
       </td>
         </strong> 
         <tr>
@@ -54,21 +55,10 @@
     </tr>
     </div>
     <br />
-    <td>
-            <form action="ShoppingCart.aspx" method="POST">
-            <script
-            src="https://checkout.stripe.com/checkout.js" class="stripe-button"
-
-               data-key="pk_live_XYNTHZOWZnu7ZG40LwmeCjNI"
-               data-amount='<%= lblTotal %>';
-               data-name="BookIT Payment"
-               data-description="Pay Here"
-               data-image="https://stripe.com/img/documentation/checkout/marketplace.png"
-               data-locale="auto"
-               data-zip-code="true"
-               data-currency="eur">
-
-            </script>
-            </form>
-        </td>
+ <asp:Button ID="BtnPay" Text="Pay Now" OnClick="BtnPay_Click" runat="server" />
+            
+       <script src="assets/plugins/jquery-1.10.2.js"></script>   
+    <script src="assets/plugins/bootstrap.js"></script>
+    <script src="assets/plugins/4jquery.parallax-1.1.3.js"></script>
+    <script src="assets/js/custom.js"></script>  
 </asp:Content>

@@ -282,6 +282,7 @@
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Images\Bookit_FAVICON.png" />
+    <Content Include="PaymentStripe.aspx" />
     <Content Include="Scripts\script.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -521,6 +522,13 @@
     <Compile Include="Models\TicketContext.cs" />
     <Compile Include="Models\TicketDatabaseInitializer.cs" />
     <Compile Include="Models\Venue.cs" />
+    <Compile Include="PaymentStripe.aspx.cs">
+      <DependentUpon>PaymentStripe.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PaymentStripe.aspx.designer.cs">
+      <DependentUpon>PaymentStripe.aspx</DependentUpon>
+    </Compile>
     <Compile Include="PriceStore.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ShoppingCart.aspx.cs">

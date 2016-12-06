@@ -8,7 +8,7 @@
     <link href="assets/css/style.css" rel="stylesheet" />
    
     <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
-    <img src="assets/img/head.jpg" />
+    
     <div class="jumbotron">
 
         <h1><%: Title %>.</h1>
