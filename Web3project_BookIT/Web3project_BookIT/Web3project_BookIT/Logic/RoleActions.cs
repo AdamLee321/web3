@@ -17,12 +17,8 @@ namespace Web3project_BookIT.Logic
             IdentityResult IdRoleResult;
             IdentityResult IdUserResult;
 
-            // Create a RoleStore object by using the ApplicationDbContext object. 
-            // The RoleStore is only allowed to contain IdentityRole objects.
             var roleStore = new RoleStore<IdentityRole>(context);
-
-            // Create a RoleManager object that is only allowed to contain IdentityRole objects.
-            // When creating the RoleManager object, you pass in (as a parameter) a new RoleStore object. 
+             
             var roleMgr = new RoleManager<IdentityRole>(roleStore);
 
             // Then, you create the "canEdit" role if it doesn't already exist.
