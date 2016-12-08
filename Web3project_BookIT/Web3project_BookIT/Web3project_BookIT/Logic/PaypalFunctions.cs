@@ -31,9 +31,9 @@ public class NVPAPICaller
     private const string ACCT = "ACCT";
 
     //PayPal API Credentials
-    public string APIUsername = "<bookitweb32016-facilitator_api1.gmail.com>";
-    private string APIPassword = "<3YVANC43TN3E52RW>";
-    private string APISignature = "<AFcWxV21C7fd0v3bYYYRCpSSRl31AhncHNahuCoCT-o5bVL.tphSffNR>";
+    public string APIUsername = "<itbook146-facilitator_api1.gmail.com>";
+    private string APIPassword = "<63LNVGM3HZF7WGHQ>";
+    private string APISignature = "<AFcWxV21C7fd0v3bYYYRCpSSRl31AM.oxyp62Q-oIkQLGUM72A8o.TKR>";
     private string Subject = "";
     private string BNCode = "PP-ECWizard";
 
@@ -69,6 +69,7 @@ public class NVPAPICaller
         encoder["PAYMENTREQUEST_0_ITEMAMT"] = amt;
         encoder["PAYMENTREQUEST_0_PAYMENTACTION"] = "Sale";
         encoder["PAYMENTREQUEST_0_CURRENCYCODE"] = "USD";
+        //encoder["PAYMENTREQUEST_0_CURRENCYCODE"] = "EUR";
 
         // Get the Shopping Cart Tickets
         using (Web3project_BookIT.Logic.ShoppingCartActions myCartOrders = new Web3project_BookIT.Logic.ShoppingCartActions())
@@ -197,7 +198,7 @@ public class NVPAPICaller
         catch (Exception e)
         {
             // Log the exception.
-            //Web3project_BookIT.Logic.ExceptionUtility.LogException(e, "HttpCall in PayPalFunction.cs");
+            Web3project_BookIT.Logic.ExceptionUtility.LogException(e, "HttpCall in PayPalFunction.cs");
         }
 
         //Retrieve the Response returned from the NVP API call to PayPal.

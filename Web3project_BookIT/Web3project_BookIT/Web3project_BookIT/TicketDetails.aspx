@@ -24,7 +24,9 @@
                         <br />
                         <span><b>Event Date:</b>&nbsp; <%#: Item.TicketDate %></span>
                         <br />
-                        <span><b>Description:</b><br /><%#:Item.Description %></span>
+                        <span><b>Description:</b>&nbsp;<%#:Item.Description %></span>
+                        <br />
+                        <span><b>Venue:</b>&nbsp;<%#:Item.TicketVenue %></span>
                         <br />
                         <span><b>Price:</b>&nbsp;<%#: String.Format("{0:c}", Item.UnitPrice) %></span>
                         <br />

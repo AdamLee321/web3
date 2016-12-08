@@ -13,6 +13,7 @@ namespace Web3project_BookIT.Models
         {
             GetCategories().ForEach(c => context.Categories.Add(c));
             GetTickets().ForEach(p => context.Tickets.Add(p));
+            GetVenues().ForEach(v => context.Venue.Add(v));
         }
 
         private static List<Category> GetCategories()
@@ -58,6 +59,7 @@ namespace Web3project_BookIT.Models
                     Description = "EP is Awesome ",
                     TicketTime = "11:00",
                     TicketDate = "12/07/17",
+                    TicketVenue = "Stradbally Hall",
                     ImagePath="ep-logo-2017_1.png", //When working check the images
                     UnitPrice = 120.00,
                     CategoryID = 1
@@ -69,6 +71,7 @@ namespace Web3project_BookIT.Models
                     Description = "Latest Tour from the legendary Pat Shortt",
                     TicketTime = "21:00",
                     TicketDate = "12/07/17",
+                    TicketVenue = "3 Arena",
                     ImagePath="",
                     UnitPrice = 25.50,
                     CategoryID = 3
@@ -80,6 +83,7 @@ namespace Web3project_BookIT.Models
                     Description = "Frozen the movie but on ice ",
                     TicketTime = "17:00",
                     TicketDate = "12/07/17",
+                    TicketVenue = "RDS",
                     ImagePath="",
                     UnitPrice = 20.00,
                     CategoryID = 5
@@ -91,6 +95,7 @@ namespace Web3project_BookIT.Models
                     Description = "Access All Year to Croke Park for all GAA events ",
                     TicketTime = "14:00",
                     TicketDate = "12/07/17",
+                    TicketVenue = "Croke Park",
                     ImagePath="",
                     UnitPrice = 500.00,
                     CategoryID = 2
@@ -102,6 +107,7 @@ namespace Web3project_BookIT.Models
                     Description = "Sligo IT Drama students will perform the musical Grease",
                     TicketTime = "18:00",
                     TicketDate = "12/07/17",
+                    TicketVenue = "Hawks Well Theatre",
                     ImagePath="",
                     UnitPrice = 10.00,
                     CategoryID = 4
@@ -109,6 +115,63 @@ namespace Web3project_BookIT.Models
                };
 
             return tickets;
+        }
+
+        private static List<Venue> GetVenues()
+        {
+            var venues = new List<Venue> {
+            new Venue
+            {
+                VenueID = 1,
+                VenueName = "RDS",
+                Address1 = "Royal Dublin Society",
+                Address2 = "Anglesea Rd",
+                City = "Dublin",
+                County = "Dublin",
+                Capacity = 500
+            },
+            new Venue
+            {
+                VenueID = 2,
+                VenueName = "3 Arena",
+                Address1 = "N Wall Quay",
+                Address2 = "North Dock",
+                City = "Dublin",
+                County = "Dublin",
+                Capacity = 1000
+            },
+            new Venue
+            {
+                VenueID = 3,
+                VenueName = "Stradbally Hall",
+                Address1 = "Stradbally",
+                Address2 = "North Dock",
+                City = "Laois",
+                County = "Laois",
+                Capacity = 1000
+            },
+            new Venue
+            {
+                VenueID = 4,
+                VenueName = "Croke Park",
+                Address1 = "Jones' Rd",
+                Address2 = "Drumcondra",
+                City = "Dublin",
+                County = "Dublin",
+                Capacity = 82300
+            },
+            new Venue
+            {
+                VenueID = 5,
+                VenueName = "Hawks Well Theatre",
+                Address1 = "Temple Street",
+                Address2 = "",
+                City = "Sligo",
+                County = "Sligo",
+                Capacity = 330
+            }
+            };
+            return venues;
         }
     }
 }

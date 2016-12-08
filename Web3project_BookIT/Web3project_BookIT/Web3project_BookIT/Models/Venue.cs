@@ -17,7 +17,7 @@ namespace Web3project_BookIT.Models
         public string Address2 { get; set; }
         public string City { get; set; }
         public string County { get; set; }
-        public string Capacity { get; set; }
+        public int Capacity { get; set; }
 
     }
 }

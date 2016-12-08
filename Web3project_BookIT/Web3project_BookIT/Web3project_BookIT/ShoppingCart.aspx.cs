@@ -36,7 +36,7 @@ namespace Web3project_BookIT
                     lblTotal.Text = "";
                     ShoppingCartTitle.InnerText = "Shopping Cart is Empty";
                     Update.Visible = false;
-                    //CheckoutImageBtn.Visible = false;
+                    CheckoutImageBtn.Visible = false;
 
                 }
             }
@@ -88,11 +88,6 @@ namespace Web3project_BookIT
             return values;
         }
 
-        protected void UpdateBtn_Click(object sender, EventArgs e)
-        {
-            UpdateCartItems();
-        }
-
         protected void Update_Click(object sender, EventArgs e)
         {
             UpdateCartItems();
@@ -102,15 +97,15 @@ namespace Web3project_BookIT
         {
             Response.Redirect("PaymentStripe.aspx");
         }
-        ////PayPal Update Event Handler
-        //protected void CheckoutBtn_Click(object sender, ImageClickEventArgs e)
-        //{
-        //    using (ShoppingCartActions usersShoppingCart = new ShoppingCartActions())
-        //    {
-        //        Session["payment_amt"] = usersShoppingCart.GetTotal();
-        //    }
-        //    Response.Redirect("Checkout/CheckoutStart.aspx");
-        //}
+        //PayPal Update Event Handler
+        protected void CheckoutBtn_Click(object sender, ImageClickEventArgs e)
+        {
+            using (ShoppingCartActions usersShoppingCart = new ShoppingCartActions())
+            {
+                Session["payment_amt"] = usersShoppingCart.GetTotal();
+            }
+            Response.Redirect("Checkout/CheckoutStart.aspx");
+        }
 
 
     }

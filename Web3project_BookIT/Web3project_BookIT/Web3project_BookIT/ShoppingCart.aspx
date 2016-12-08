@@ -31,31 +31,36 @@
                     <asp:CheckBox id="Remove" runat="server"></asp:CheckBox>
                 </ItemTemplate>        
         </asp:TemplateField>    
-        </Columns>    
-    </asp:GridView>
+        </Columns>
+        </asp:GridView>
     <div>
         <p></p>
         <strong>
             <asp:Label ID="LabelTotalText" runat="server" Text="Order Total: "></asp:Label>
             <asp:Label ID="lblTotal" runat="server" EnableViewState="false"></asp:Label>
-            <td>
-                <asp:Button id="Update" runat="server" OnClick="Update_Click" Text="Update"></asp:Button>
-        <%--<asp:Button ID="UpdateBtn" runat="server" Text="Update" OnClick="UpdateBtn_Click" />--%>
-      </td>
         </strong> 
-        <tr>
-      
-      <%--<td>
+    </div>
+    <br />
+    <table> 
+    <tr>
+      <td>
+        <asp:Button ID="Update" runat="server" Text="Update" OnClick="Update_Click" />
+      </td>
+        <td>
+            <asp:Button ID="BtnPay" Text="Pay Now" OnClick="BtnPay_Click" runat="server" />
+        </td>
+        <td>
         <asp:ImageButton ID="CheckoutImageBtn" runat="server" 
                       ImageUrl="https://www.paypal.com/en_US/i/btn/btn_xpressCheckout.gif" 
                       Width="145" AlternateText="Check out with PayPal" 
                       OnClick="CheckoutBtn_Click" 
                       BackColor="Transparent" BorderWidth="0" />
-      </td>--%>
+      </td>
     </tr>
-    </div>
-    <br />
- <asp:Button ID="BtnPay" Text="Pay Now" OnClick="BtnPay_Click" runat="server" />
+    </table>   
+    
+    
+ 
             
        <script src="assets/plugins/jquery-1.10.2.js"></script>   
     <script src="assets/plugins/bootstrap.js"></script>
