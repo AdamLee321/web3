@@ -6,7 +6,7 @@ using System.Web;
 
 namespace Web3project_BookIT.Models
 {
-    //All Tickets for everyEvent
+    //All Tickets for every event
     public class Ticket
     {
         [ScaffoldColumn(false)]

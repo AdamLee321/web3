@@ -36,17 +36,16 @@
                         <table>
                             <tr>
                                 <td>
-                                    <a href="TicketDetails.aspx?TicketID=<%#:Item.TicketID%>">
-                                        <img src="/Catalog/Images/Thumbs/<%#:Item.ImagePath%>"
-                                            width="100" height="75" style="border: solid" /></a>
+                                    <a href="<%#: GetRouteUrl("TicketByNameRoute", new {ticketName = Item.TicketName}) %>">
+                                    <image src='/Catalog/Images/Thumbs/<%#:Item.ImagePath%>'
+                                    width="100" height="75" border="1" />
+                                    </a>
                                 </td>
                             </tr>
                             <tr>
                                 <td>
-                                    <a href="TicketDetails.aspx?TicketID=<%#:Item.TicketID%>">
-                                        <span>
-                                            <%#:Item.TicketName%>
-                                        </span>
+                                    <a href="<%#: GetRouteUrl("TicketByNameRoute", new {ticketName = Item.TicketName}) %>">
+                                    <%#:Item.TicketName%>
                                     </a>
                                     <br />
                                     <span>

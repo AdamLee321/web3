@@ -15,13 +15,20 @@ namespace Web3project_BookIT
         {
 
         }
-        public IQueryable<Ticket> GetTicket([QueryString("TicketID")] int? TicketID)
+        public IQueryable<Ticket> GetTicket(
+                    [QueryString("TicketID")] int? ticketId,
+                    [RouteData] string ticketName)
         {
-            var _db = new Web3project_BookIT.Models.TicketContext();
+            var _db = new TicketContext();
             IQueryable<Ticket> query = _db.Tickets;
-            if (TicketID.HasValue && TicketID > 0)
+            if (ticketId.HasValue && ticketId > 0)
             {
-                query = query.Where(t => t.TicketID == TicketID);
+                query = query.Where(t => t.TicketID == ticketId);
+            }
+            else if (!String.IsNullOrEmpty(ticketName))
+            {
+                query = query.Where(t =>
+                          String.Compare(t.TicketName, ticketName) == 0);
             }
             else
             {

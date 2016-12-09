@@ -27,6 +27,23 @@ namespace Web3project_BookIT
             RoleActions roleActions = new RoleActions();
             roleActions.AddUserAndRole();
 
+            // Add Routes.
+            RegisterCustomRoutes(RouteTable.Routes);
+
+        }
+
+        private void RegisterCustomRoutes(RouteCollection routes)
+        {
+            routes.MapPageRoute(
+              "TicketsByCategoryRoute",
+              "Category/{categoryName}",
+              "~/TicketList.aspx"
+            );
+            routes.MapPageRoute(
+              "TicketByNameRoute",
+              "Ticket/{ticketName}",
+              "~/TicketDetails.aspx"
+            );
         }
     }
 }

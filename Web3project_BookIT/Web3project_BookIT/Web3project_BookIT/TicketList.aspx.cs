@@ -6,6 +6,7 @@ using System.Web.ModelBinding;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 using Web3project_BookIT.Models;
+using System.Web.Routing;
 
 namespace Web3project_BookIT
 {
@@ -15,13 +16,23 @@ namespace Web3project_BookIT
         {
 
         }
-        public IQueryable<Ticket> GetTickets([QueryString("id")] int? categoryId)
+        public IQueryable<Ticket> GetTickets(
+                    [QueryString("id")] int? categoryId,
+                    [RouteData] string categoryName)
         {
             var _db = new TicketContext();
             IQueryable<Ticket> query = _db.Tickets;
+
             if (categoryId.HasValue && categoryId > 0)
             {
                 query = query.Where(p => p.CategoryID == categoryId);
+            }
+
+            if (!String.IsNullOrEmpty(categoryName))
+            {
+                query = query.Where(p =>
+                                    String.Compare(p.Category.CategoryName,
+                                    categoryName) == 0);
             }
             return query;
         }

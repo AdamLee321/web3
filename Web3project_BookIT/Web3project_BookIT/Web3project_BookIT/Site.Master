@@ -98,7 +98,7 @@
                 SelectMethod="GetCategories" >
                 <ItemTemplate>
                     <b style="font-size: large; font-style: normal">
-                        <a href="/TicketList.aspx?id=<%#: Item.CategoryID %>">
+                        <a href="<%#: GetRouteUrl("TicketsByCategoryRoute", new {categoryName = Item.CategoryName}) %>">
                         <%#: Item.CategoryName %>
                         </a>
                     </b>
