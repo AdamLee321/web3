@@ -56,6 +56,8 @@
                     <ul class="nav navbar-nav">
                         <li><a runat="server" id="adminLink" visible="false" 
                             href="~/Admin/AdminPage">Admin</a></li>
+                        <li><a runat="server" id="eventPlannerLink" visible="false" 
+                            href="~/EventPlanner/EventPlanPage">Event Planner</a></li>
                         <li><a runat="server" href="~/">Home</a></li>
                         <li><a href="Tickets.aspx">Ticketmaster</a></li>
                         <li><a runat="server" href="~/About">About</a></li>

@@ -76,6 +76,10 @@ namespace Web3project_BookIT
             {
                 adminLink.Visible = true;
             }
+            if (HttpContext.Current.User.IsInRole("canAddEvents"))
+            {
+                eventPlannerLink.Visible = true;
+            }
         }
 
         protected void Page_PreRender(object sender, EventArgs e)

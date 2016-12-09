@@ -1,5 +1,4 @@
-﻿<%@ Page Title="Register" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Register.aspx.cs" Inherits="Web3project_BookIT.Account.Register" %>
-
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="RegisterEventPlanner.aspx.cs" Inherits="Web3project_BookIT.Account.RegisterEventPlanner" %>
 <asp:Content runat="server" ID="BodyContent" ContentPlaceHolderID="MainContent">
     <h2><%: Title %>.</h2>
     <p class="text-danger">
@@ -7,7 +6,7 @@
     </p>
 
     <div class="form-horizontal">
-        <h4>Create a new customer account</h4>
+        <h4>Create a new event planner account</h4>
         <hr />
         <asp:ValidationSummary runat="server" CssClass="text-danger" />
         <div class="form-group">

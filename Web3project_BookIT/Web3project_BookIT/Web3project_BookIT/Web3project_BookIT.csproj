@@ -223,6 +223,7 @@
     <Content Include="Account\ManagePassword.aspx" />
     <Content Include="Account\OpenAuthProviders.ascx" />
     <Content Include="Account\Register.aspx" />
+    <Content Include="Account\RegisterEventPlanner.aspx" />
     <Content Include="Account\RegisterExternalLogin.aspx" />
     <Content Include="Account\ResetPassword.aspx" />
     <Content Include="Account\ResetPasswordConfirmation.aspx" />
@@ -287,6 +288,7 @@
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Admin\Web.config" />
+    <Content Include="EventPlanner\WebEventPlanner.config" />
     <None Include="Scripts\jquery-2.1.4.intellisense.js" />
     <Content Include="Scripts\jquery-2.1.4.js" />
     <Content Include="Scripts\jquery-2.1.4.min.js" />
@@ -387,6 +389,13 @@
     </Compile>
     <Compile Include="Account\Register.aspx.designer.cs">
       <DependentUpon>Register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\RegisterEventPlanner.aspx.cs">
+      <DependentUpon>RegisterEventPlanner.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\RegisterEventPlanner.aspx.designer.cs">
+      <DependentUpon>RegisterEventPlanner.aspx</DependentUpon>
     </Compile>
     <Compile Include="Account\RegisterExternalLogin.aspx.cs">
       <DependentUpon>RegisterExternalLogin.aspx</DependentUpon>
@@ -508,6 +517,7 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Logic\AddTickets.cs" />
+    <Compile Include="Logic\AddVenues.cs" />
     <Compile Include="Logic\ExceptionUtility.cs" />
     <Compile Include="Logic\PaypalFunctions.cs" />
     <Compile Include="Logic\RoleActions.cs" />

@@ -21,11 +21,26 @@ namespace Web3project_BookIT.Logic
              
             var roleMgr = new RoleManager<IdentityRole>(roleStore);
 
+            var canAddEvents = new RoleManager<IdentityRole>(roleStore);
+
+            if (!canAddEvents.RoleExists("canAddEvents"))
+            {
+                IdRoleResult = canAddEvents.Create(new IdentityRole { Name = "canAddEvents" });
+            }
+
             // Then, you create the "canEdit" role if it doesn't already exist.
             if (!roleMgr.RoleExists("canEdit"))
             {
                 IdRoleResult = roleMgr.Create(new IdentityRole { Name = "canEdit" });
             }
+
+            var userEventPlanner = new UserManager<ApplicationUser>(new UserStore<ApplicationUser>(context));
+            var appEventPlanner = new ApplicationUser
+            {
+                UserName = "EventPlanner1@BookIt.ie", //THIS NEEDS TO COME FROM LOGIN INFO NOT HARDCODED
+                Email = "EventPlanner1@BookIt.ie" //THIS NEEDS TO COME FROM LOGIN INFO NOT HARDCODED
+            };
+            IdUserResult = userEventPlanner.Create(appEventPlanner, "Pa$$wordEvntPlanner1");
 
             // Create a UserManager object based on the UserStore object and the ApplicationDbContext  
             // object. Note that you can create new objects and use them as parameters in
@@ -44,6 +59,10 @@ namespace Web3project_BookIT.Logic
             if (!userMgr.IsInRole(userMgr.FindByEmail("canEditUser@BookIT.com").Id, "canEdit"))
             {
                 IdUserResult = userMgr.AddToRole(userMgr.FindByEmail("canEditUser@BookIT.com").Id, "canEdit");
+            }
+            if (!userEventPlanner.IsInRole(userEventPlanner.FindByEmail("EventPlanner1@BookIt.ie").Id, "canAddEvents"))
+            {
+                IdUserResult = userMgr.AddToRole(userMgr.FindByEmail("EventPlanner1@BookIt.ie").Id, "canAddEvents");
             }
         }
     }

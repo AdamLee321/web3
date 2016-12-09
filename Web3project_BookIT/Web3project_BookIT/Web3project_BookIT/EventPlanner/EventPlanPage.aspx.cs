@@ -13,9 +13,14 @@ namespace Web3project_BookIT.EventPlanner
         protected void Page_Load(object sender, EventArgs e)
         {
             string TicketAction = Request.QueryString["TicketAction"];
+            string VenueAction = Request.QueryString["VenueAction"];
             if (TicketAction == "add")
             {
                 LabelAddStatus.Text = "Ticket added!";
+            }
+            if (VenueAction == "add")
+            {
+                LabelAddVenue.Text = "Venue added!";
             }
         }
 
@@ -83,6 +88,22 @@ namespace Web3project_BookIT.EventPlanner
             var _db = new Models.TicketContext();
             IQueryable query = _db.Tickets;
             return query;
+        }
+        protected void AddVenueButton_Click(object sender, EventArgs e)
+        {
+            // Add ticket data to DB.
+            AddVenues Venues = new AddVenues();
+            bool addSuccess = Venues.AddVenue(VenueName.Text, VenueAdd1.Text, VenueAdd2.Text, VenueCity.Text, VenueCounty.Text, VenueCapacity.Text);
+            if (addSuccess)
+            {
+                // Reload the page.
+                string pageUrl = Request.Url.AbsoluteUri.Substring(0, Request.Url.AbsoluteUri.Count() - Request.Url.Query.Count());
+                Response.Redirect(pageUrl + "?VenueAction=add");
+            }
+            else
+            {
+                LabelAddStatus.Text = "Unable to add new venue to database.";
+            }
         }
     }
 }
