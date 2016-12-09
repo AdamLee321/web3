@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Configuration;
+using System.Data.SqlClient;
 using System.Linq;
 using System.Web;
 using System.Web.UI;
@@ -130,6 +132,22 @@ namespace Web3project_BookIT.Admin
             else
             {
                 LabelAddStatus.Text = "Unable to add new venue to database.";
+            }
+        }
+        protected void Submit(object sender, EventArgs e)
+        {
+            string query = "INSERT INTO [Blogs] VALUES (@Title, @Body)";
+            string conString = ConfigurationManager.ConnectionStrings["constr"].ConnectionString;
+            using (SqlConnection con = new SqlConnection(conString))
+            {
+                using (SqlCommand cmd = new SqlCommand(query, con))
+                {
+                    cmd.Parameters.AddWithValue("@Title", txtTitle.Text);
+                    cmd.Parameters.AddWithValue("@Body", txtBody.Text);
+                    con.Open();
+                    cmd.ExecuteNonQuery();
+                    con.Close();
+                }
             }
         }
     }

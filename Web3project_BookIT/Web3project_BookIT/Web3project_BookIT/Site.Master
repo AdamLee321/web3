@@ -5,11 +5,11 @@
 <html lang="en">
 <head runat="server">
     <meta charset="utf-8" />
-    <!--<link href="assets/css/Style1.css" rel="stylesheet" />
+    <link href="assets/css/Style1.css" rel="stylesheet" />
     <link href="assets/css/bootstrap.css" rel="stylesheet" />   
     <link href="assets/css/font-awesome.min.css" rel="stylesheet" />
     <link href="assets/css/style.css" rel="stylesheet" />
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />-->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title><%: Page.Title %> - BookIT</title>
 
@@ -59,10 +59,11 @@
                         <li><a runat="server" id="eventPlannerLink" visible="false" 
                             href="~/EventPlanner/EventPlanPage">Event Planner</a></li>
                         <li><a runat="server" href="~/">Home</a></li>
-                        <li><a href="Tickets.aspx">Ticketmaster</a></li>
+                        <li><a runat="server" href="~/Tickets">Ticketmaster</a></li>
+                        <li><a runat="server" href="~/TicketList">Events</a></li>
                         <li><a runat="server" href="~/About">About</a></li>
                         <li><a runat="server" href="~/Contact">Contact</a></li>
-                        <li><a runat="server" href="~/TicketList">Events</a></li>
+                        <li><a runat="server" href="~/News">News</a></li>
                         <li><a runat="server" href="~/ShoppingCart" ID="cartCount">&nbsp;</a></li> <!--Adding a Shopping Cart Counter-->
                     </ul>
                     <asp:LoginView runat="server" ViewStateMode="Disabled">
