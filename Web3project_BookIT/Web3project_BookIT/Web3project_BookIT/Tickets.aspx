@@ -69,9 +69,10 @@
   var map = new google.maps.Map(mapCanvas, mapOptions);
 }
 </script>
+        <h2>Calculate your Ticket cost here</h2>
          <main class="container">
 
-            <h1 class="jumbotron">Price quotation</h1>
+            <h1 class="jumbotron">Price Checker</h1>
 
             <div class="form-group">
                 <div class="col-sm-12">
@@ -81,7 +82,7 @@
 
             <div class="form-group">
 
-                <label class="col-sm-3 control-label">Sales price</label>
+                <label class="col-sm-3 control-label">Ticket price</label>
                 <div class="col-sm-3">
                     <asp:TextBox ID="txtSalesPrice" runat="server" CssClass="form-control bold">100</asp:TextBox>
                 </div>
@@ -136,4 +137,3 @@
     <script src="assets/plugins/4jquery.parallax-1.1.3.js"></script>
     <script src="assets/js/custom.js"></script>
 </asp:Content>
-
