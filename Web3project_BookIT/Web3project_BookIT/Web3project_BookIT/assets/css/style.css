@@ -5,7 +5,6 @@ body {
           font-family: 'Open Sans', sans-serif;
     font-size:14px;
 }
-
 .text-center {
     text-align:center;
 }
@@ -58,16 +57,10 @@ section {
     padding-bottom:40px;
 }
 
-/*=======================================
-    COLOR CODES
-==================================================*/
 .main-color {
     color: #27C00A;
 }
 
-/*=======================================
-    NAVIGATION STYLES
-==================================================*/
 .navbar a {
     color:#ffffff !important;
 }
@@ -93,11 +86,6 @@ nav {
 background-color: #27C00A;
 border-color: #05A250;
 }
-
-
-/*=======================================
-    HEADER STYLES
-==================================================*/
 
 .head-main {
    font-size: 70px !important;
@@ -138,10 +126,6 @@ margin-bottom:30px;
         background-color: rgba(255, 255, 255, 0);
     }
 
-/*=======================================
-    Services  STYLES
-==================================================*/
-
 .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
 color: #fff;
 background-color: #27C00A;
@@ -160,11 +144,6 @@ color:#fff;
  #Parallax-one i {
         color:#fff;
     }
-/*=======================================
-    PRICING STYLES
-==================================================*/
-
-
 .plan {
     background: #eef1f3;
     padding: 0 0 15px 0;
@@ -219,21 +198,12 @@ color:#fff;
         color:#fff;
     }
 
-/*=======================================
-    CONTACT STYLES
-==================================================*/
-
 #social-icon a {
     color:#616161!important;
     margin-right:10px;
      font-size:20px;
      float:right;
 }
-
-/*=======================================
-    FOOTER STYLES
-==================================================*/
-
 
 #footer {
     background-color:#27C00A;

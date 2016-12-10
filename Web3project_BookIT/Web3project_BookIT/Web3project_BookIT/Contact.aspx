@@ -39,19 +39,19 @@ height: 16px;
 
 
 
-    <h2><%: Title %>.</h2>
+    <h2>BookIT.</h2>
     <div class="form-horizontal">
     <h3>Contact Us.</h3>
         <div class="form-group">
         
-            <asp:TextBox ID="TextBox1" runat="server" Width="186px" BackColor="#27C00A" BorderColor="Black"></asp:TextBox>
+            <asp:TextBox ID="TextBox1" runat="server" Width="186px" BackColor="#ffcc66" BorderColor="Black"></asp:TextBox>
         
             <br />
             <br />
-            <asp:TextBox ID="TextBox2" runat="server" Width="186px" BackColor="#27C00A" BorderColor="Black"></asp:TextBox>
+            <asp:TextBox ID="TextBox2" runat="server" Width="186px" BackColor="#ffcc66" BorderColor="Black"></asp:TextBox>
             <br />
             <br />
-            <asp:TextBox ID="TextBox3" runat="server" Height="60px" Width="186px" BackColor="#27C00A" BorderColor="Black" TextMode="MultiLine"></asp:TextBox>
+            <asp:TextBox ID="TextBox3" runat="server" Height="60px" Width="186px" BackColor="#ffcc66" BorderColor="Black" TextMode="MultiLine"></asp:TextBox>
         
             <br />
             <br />
@@ -76,11 +76,11 @@ height: 16px;
      <h2>Tells us what you think of our site</h2>
       <h3>We value your input to help make BookIT better</h3>
 
-        Message to: <asp:TextBox ID="txtTo" runat="server" Text="S00153921@mail.itsligo.ie" /><br>
-        Message from: <asp:TextBox ID="txtFrom" runat="server" /><br>
-        Ticket Name: <asp:TextBox ID="txtSubject" runat="server" /><br>
+        Message to: <asp:TextBox ID="txtTo" runat="server" BackColor="#ffcc66" BorderColor="Black" Text="S00153921@mail.itsligo.ie" /><br>
+        Message from: <asp:TextBox ID="txtFrom"  BackColor="#ffcc66" BorderColor="Black" runat="server" /><br>
+        Ticket Name: <asp:TextBox ID="txtSubject" BackColor="#ffcc66" BorderColor="Black" runat="server" /><br>
         Message Body:<br>
-        <asp:TextBox ID="txtBody" runat="server" Height="171px" TextMode="MultiLine" Width="270px" text="Give us a review"/><br>
+        <asp:TextBox ID="txtBody" BackColor="#ffcc66" BorderColor="Black" runat="server" Height="171px" TextMode="MultiLine" Width="270px" text="Give us a review"/><br>
         <asp:Button ID="Btn_SendMail" runat="server" onclick="Btn_SendMail_Click" Text="Send Email" /><br>
         <h2>You need a working SMTP service for sending email</h2>
         <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
@@ -104,9 +104,9 @@ height: 16px;
    
     <h2>Give us your thoughts</h2>
 
-    Your Name: <asp:TextBox ID="Name" runat="server" Text="Joe Smith" />
-    Ticket Purchased: <asp:TextBox ID="TickeName" runat="server" Text="En Pure" />
-    Rating: <asp:TextBox ID="Rating2" runat="server" Text="1-5" />
+    Your Name: <asp:TextBox ID="Name" runat="server" BackColor="#ffcc66" BorderColor="Black" Text="Joe Smith" />
+    Ticket Purchased: <asp:TextBox ID="TickeName" BackColor="#ffcc66" BorderColor="Black" runat="server" Text="En Pure" />
+    Rating: <asp:TextBox ID="Rating2" runat="server" BackColor="#ffcc66" BorderColor="Black" Text="1-5" />
      <asp:Button ID="btnValue" runat="server" Text="Submit" OnClick="btnValue_Click" />
     <asp:Label ID="Label4" runat="server" Text=""></asp:Label>
     <br />
@@ -160,5 +160,5 @@ height: 16px;
     <script src="assets/plugins/bootstrap.js"></script>
     <script src="assets/plugins/4jquery.parallax-1.1.3.js"></script>
     <script src="assets/js/custom.js"></script>
-     </div>
+     
 </asp:Content>

@@ -9,7 +9,7 @@
     
     <div class="jumbotron" id="imageheader">
 
-        <h1><%: Title %>.</h1>
+        <h1>BookIT.</h1>
         <p class="lead"></p>
         <h2>BookIT can help you find the perfect event or to make your own.</h2>
         <p class="lead">This is the BookIT website where you can purchase tickets 
