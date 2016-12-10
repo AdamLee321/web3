@@ -16,10 +16,46 @@ namespace Web3project_BookIT
 {
     public partial class Contact : Page
     {
+        SqlConnection con = new SqlConnection(ConfigurationManager.ConnectionStrings["Web3project_BookIT"].ConnectionString);
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            Label5.Text = "0 Users have rated this Product";
+            Label6.Text = "Average rating for this Product is 0";
+            if (!IsPostBack)
+            {
+                BindRatings();
+            }
         }
+        protected void Rating5_Changed(object sender, AjaxControlToolkit.RatingEventArgs e)
+        {
+            con.Open();
+            SqlCommand cmd = new SqlCommand("INSERT INTO UserRating(Rating) VALUES (@Rating)", con);
+            cmd.Parameters.AddWithValue("@Rating", SqlDbType.Int).Value = Rating5.CurrentRating;
+            cmd.ExecuteNonQuery();
+            con.Close();
+            BindRatings();
+        }
+        public void BindRatings()
+        {
+            int Total = 0;
+            con.Open();
+            SqlCommand cmd = new SqlCommand("SELECT Rating FROM UserRating", con);
+            SqlDataAdapter da = new SqlDataAdapter(cmd);
+            DataTable dt = new DataTable();
+            da.Fill(dt);
+            if (dt.Rows.Count > 0)
+            {
+                for (int i = 0; i < dt.Rows.Count; i++)
+                {
+                    Total += Convert.ToInt32(dt.Rows[i][0].ToString());
+                }
+                int Average = Total / (dt.Rows.Count);
+                Rating5.CurrentRating = Average;
+                Label5.Text = dt.Rows.Count + " " + "Users have rated this Product";
+                Label6.Text = "Average rating for this Product is" + " " + Convert.ToString(Average);
+            }
+        }
+
         protected void Btn_SendMail_Click(object sender, EventArgs e)
         {
             MailMessage mailObj = new MailMessage(
@@ -62,5 +98,7 @@ namespace Web3project_BookIT
             lblThanks.Text = "Thank you for the review";
             //Label2.Text = Rating1.CurrentRating.ToString();
         }
+
+
     }
 }

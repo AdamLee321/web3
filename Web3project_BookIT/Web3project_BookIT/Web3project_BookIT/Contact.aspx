@@ -1,5 +1,11 @@
 ﻿<%@ Page Title="Contact" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Contact.aspx.cs" Inherits="Web3project_BookIT.Contact" %>
 
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
+
+<%--<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>--%>
+
+
+
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
      <link href="assets/css/bootstrap.css" rel="stylesheet" />
   
@@ -9,31 +15,28 @@
    
     <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
 
-     <%-- <style type="text/css">
-       .starRating{
-               width:50px;
-               height:50px;
-               cursor:pointer;
-               background-repeat:no-repeat;
-               display:block;
-       }
-       
-        .EmptyStar
-        {
-            background-image: url(Images/Empty_star.png);
-          
-        }
-        .WaitingStar
-        {
-            background-image: url(Images/WaitingStar.png);
-          
-        }
-        .FilledStar
-        {
-            background-image: url(Images/Star.png);
-          
-        }
-    </style>--%>
+    <style type="text/css">
+
+.blankstar
+{
+background-image: url(Images/blank_star.png);
+width: 16px;
+height: 16px;
+}
+.waitingstar
+{
+background-image: url(Images/half_star.png);
+width: 16px;
+height: 16px;
+}
+.shiningstar
+{
+background-image: url(Images/shining_star.png);
+width: 16px;
+height: 16px;
+}
+</style>
+
 
 
     <h2><%: Title %>.</h2>
@@ -87,7 +90,17 @@
     <asp:Rating ID="Rating1" runat="server" StarCssClass="starRating" FilledStarCssClass="FilledStar" EmptyStarCssClass="Star" WaitingStarCssClass="WaitingStar"
          CurrentRating="4" MaxRating="5">
         
-    </asp:Rating>--%>
+    </asp:Rating>--%><%--<asp:Rating ID="Rating1" runat="server"></asp:Rating>--%>
+
+    <asp:Rating ID="Rating5" runat="server" AutoPostBack="true" StarCssClass="blankstar"
+        WaitingStarCssClass="waitingstar" FilledStarCssClass="shiningstar"
+        EmptyStarCssClass="blankstar" OnChanged="Rating5_Changed">
+    </asp:Rating>
+   
+ 
+<asp:Label ID="Label5" runat="server" Text="Label"></asp:Label>, 
+<asp:Label ID="Label6" runat="server" Text="Label"></asp:Label> 
+
    
     <h2>Give us your thoughts</h2>
 
