@@ -53,6 +53,8 @@
                     </div>
                 </div>
                 <p>
+                    <a href="Forgot.aspx">Forgot your password?</a>
+                    <br />
                     <asp:HyperLink runat="server" ID="RegisterHyperLink" ViewStateMode="Disabled">Register as a new user</asp:HyperLink>
                 </p>
                 <p>
