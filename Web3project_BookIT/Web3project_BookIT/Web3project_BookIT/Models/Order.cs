@@ -7,6 +7,7 @@ using System.ComponentModel;
 
 namespace Web3project_BookIT.Models
 {
+    //Order store for the DB
     public class Order
     {
         public int OrderId { get; set; }

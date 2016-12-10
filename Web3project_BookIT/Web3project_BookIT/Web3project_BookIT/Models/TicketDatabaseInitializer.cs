@@ -6,7 +6,7 @@ using System.Data.Entity;
 
 namespace Web3project_BookIT.Models
 {
-    //This Class is to initialise the database and add the categories and events so far
+    //This Class is to initialise the database and add the categories,Venues and Events.
     public class TicketDatabaseInitializer : DropCreateDatabaseIfModelChanges<TicketContext>
     {
         protected override void Seed(TicketContext context)

@@ -7,7 +7,6 @@ namespace Web3project_BookIT.Logic
     // Create our own utility for exceptions
     public sealed class ExceptionUtility
     {
-        // All methods are static, so this can be private
         private ExceptionUtility()
         { }
 
@@ -45,6 +44,7 @@ namespace Web3project_BookIT.Logic
                 sw.WriteLine(exc.StackTrace);
                 sw.WriteLine();
             }
+            //Close the writer 
             sw.Close();
         }
     }

@@ -10,6 +10,8 @@ namespace Web3project_BookIT.Checkout
 {
   public partial class CheckoutReview : System.Web.UI.Page
   {
+    //Code from PayPal API Tutorial
+    //Edited to suit the checkout for our website
     protected void Page_Load(object sender, EventArgs e)
     {
       if (!IsPostBack)

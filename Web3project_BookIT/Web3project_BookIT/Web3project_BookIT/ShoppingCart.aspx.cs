@@ -13,6 +13,9 @@ using Stripe;
 using System.Threading.Tasks;
 using System.Globalization;
 
+//Shooping Cart By Adam with help from ASP.Net
+//Paypal By Adam
+//Stripe payment option added by Michael
 namespace Web3project_BookIT
 {
     public partial class ShoppingCart : System.Web.UI.Page

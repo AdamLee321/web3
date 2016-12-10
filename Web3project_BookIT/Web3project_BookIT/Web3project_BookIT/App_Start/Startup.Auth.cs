@@ -22,8 +22,6 @@ namespace Web3project_BookIT
             app.CreatePerOwinContext<ApplicationSignInManager>(ApplicationSignInManager.Create);
 
             // Enable the application to use a cookie to store information for the signed in user
-            // and to use a cookie to temporarily store information about a user logging in with a third party login provider
-            // Configure the sign in cookie
             app.UseCookieAuthentication(new CookieAuthenticationOptions
             {
                 AuthenticationType = DefaultAuthenticationTypes.ApplicationCookie,
@@ -35,7 +33,7 @@ namespace Web3project_BookIT
                         regenerateIdentity: (manager, user) => user.GenerateUserIdentityAsync(manager))
                 }
             });
-            // Use a cookie to temporarily store information about a user logging in with a third party login provider
+            // Use a cookie to temporarily store information about a user logging in with Google login provider
             app.UseExternalSignInCookie(DefaultAuthenticationTypes.ExternalCookie);
 
             // Enables the application to temporarily store user information when they are verifying the second factor in the two-factor authentication process.

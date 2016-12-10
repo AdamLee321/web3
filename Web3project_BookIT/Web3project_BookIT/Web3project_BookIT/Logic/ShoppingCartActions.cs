@@ -4,6 +4,7 @@ using System.Linq;
 using System.Web;
 using Web3project_BookIT.Models;
 
+//Personal code and help from ASP.Net Video Tutorials
 namespace Web3project_BookIT.Logic
 {
     public class ShoppingCartActions : IDisposable
@@ -83,13 +84,13 @@ namespace Web3project_BookIT.Logic
         }
 
 
-        //Get For The Shopping Cart
+        //Get Total For The Shopping Cart
         public decimal GetTotal()
         {
             ShoppingCartId = GetCartId();
-            // Multiply ticket price by quantity of that ticket to get        
-            // the current price for each of those tickets in the cart.  
-            // Sum all ticket price totals to get the cart total.   
+            /*  Multiply ticket price by quantity of that ticket to get        
+                the current price for each of those tickets in the cart.  
+                Sum all ticket price totals to get the cart total.   */ 
             decimal? total = decimal.Zero;
             total = (decimal?)(from cartItems in _db.ShoppingCartItems
                                where cartItems.CartId == ShoppingCartId
@@ -135,7 +136,7 @@ namespace Web3project_BookIT.Logic
                 }
                 catch (Exception exp)
                 {
-                    throw new Exception("ERROR: Unable to Update Cart Database - " + exp.Message.ToString(), exp);
+                    throw new Exception("ERROR: Unable to Update Cart - " + exp.Message.ToString(), exp);
                 }
             }
         }
@@ -149,7 +150,7 @@ namespace Web3project_BookIT.Logic
                     var myItem = (from c in _db.ShoppingCartItems where c.CartId == removeCartID && c.Ticket.TicketID == removeTicketID select c).FirstOrDefault();
                     if (myItem != null)
                     {
-                        // Remove Item.
+                        // Remove selected Item.
                         _db.ShoppingCartItems.Remove(myItem);
                         _db.SaveChanges();
                     }

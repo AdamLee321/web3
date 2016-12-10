@@ -6,6 +6,7 @@ using System.Web.UI;
 using System.Web.UI.WebControls;
 using Web3project_BookIT.Logic;
 
+//Add Ticket to the DB for the event planner logged in user
 namespace Web3project_BookIT.EventPlanner
 {
     public partial class EventPlanPage : System.Web.UI.Page

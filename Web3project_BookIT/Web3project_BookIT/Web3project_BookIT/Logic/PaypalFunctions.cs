@@ -12,6 +12,10 @@ using Web3project_BookIT.Models;
 using System.Collections.Generic;
 using System.Linq;
 
+
+//Code retrieved from the PayPal developer website tutorial
+//Edited to function on our site.
+//S00174787
 public class NVPAPICaller
 {
     //Flag that determines the PayPal environment (live or sandbox)

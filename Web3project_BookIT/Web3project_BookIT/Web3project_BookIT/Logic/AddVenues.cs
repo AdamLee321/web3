@@ -5,6 +5,7 @@ namespace Web3project_BookIT.Logic
 {
     public class AddVenues
     {
+        //Add the venue to the DB from the Admin page and event planner page
         public bool AddVenue(string VenueName, string VenueAdd1, string VenueAdd2, string VenueCity, string VenueCounty, string VenueCapacity)
         {
             var myVenue = new Venue();

@@ -59,9 +59,9 @@ namespace Web3project_BookIT.Checkout
             _db.SaveChanges();
           }
 
-          // Clear shopping cart.
-          using (Web3project_BookIT.Logic.ShoppingCartActions usersShoppingCart =
-              new Web3project_BookIT.Logic.ShoppingCartActions())
+          // Clear the shopping cart.
+          using (Logic.ShoppingCartActions usersShoppingCart =
+              new Logic.ShoppingCartActions())
           {
             usersShoppingCart.EmptyCart();
           }

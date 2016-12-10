@@ -7,14 +7,14 @@ using System.Web.UI.WebControls;
 using System.Diagnostics;
 using Web3project_BookIT.Logic; //Importing the Logic Folder for the shopping cart
 
-
+//ASP.Net Tutorial plus personal coding
 namespace Web3project_BookIT
 {
     public partial class AddToCart : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            string rawId = Request.QueryString["TicketID"]; //This might have to be events CHANGE IN THE CLEAN UP
+            string rawId = Request.QueryString["TicketID"]; 
             int ticketId;
             if (!String.IsNullOrEmpty(rawId) && int.TryParse(rawId, out ticketId))
             {
@@ -27,7 +27,7 @@ namespace Web3project_BookIT
             else
             {
                 Debug.Fail("ERROR : We should never get to AddToCart.aspx without a TicketId.");
-                throw new Exception("ERROR : It is illegal to load AddToCart.aspx without setting a TicketId.");
+                throw new Exception("ERROR");
             }
             Response.Redirect("ShoppingCart.aspx");
         }

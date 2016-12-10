@@ -525,7 +525,7 @@
     <Compile Include="Logic\AddVenues.cs" />
     <Compile Include="Logic\ExceptionUtility.cs" />
     <Compile Include="Logic\PaypalFunctions.cs" />
-    <Compile Include="Logic\RoleActions.cs" />
+    <Compile Include="Logic\Roles.cs" />
     <Compile Include="Logic\ShoppingCartActions.cs" />
     <Compile Include="Logic\StripePayments.cs" />
     <Compile Include="Models\CartItem.cs" />

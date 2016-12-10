@@ -6,9 +6,11 @@ using Web3project_BookIT.Models;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.EntityFramework;
 
+//docs.microsoft.com/en-us/azure/app-service-web/web-sites-dotnet-deploy-aspnet-mvc-app-membership-oauth-sql-database#using-the-membership-api
+//Code design comes from the address above, my own code and from tutorials by Shane Banks.
 namespace Web3project_BookIT.Logic
 {
-    internal class RoleActions
+    internal class Roles
     {
         internal void AddUserAndRole()
         {
@@ -22,7 +24,7 @@ namespace Web3project_BookIT.Logic
             var roleMgr = new RoleManager<IdentityRole>(roleStore);
 
             var canAddEvents = new RoleManager<IdentityRole>(roleStore);
-
+            //Names such as "canAdd" and "canDelete" have been suggested as role names rather then admin and member
             if (!canAddEvents.RoleExists("canAddEvents"))
             {
                 IdRoleResult = canAddEvents.Create(new IdentityRole { Name = "canAddEvents" });
@@ -37,15 +39,11 @@ namespace Web3project_BookIT.Logic
             var userEventPlanner = new UserManager<ApplicationUser>(new UserStore<ApplicationUser>(context));
             var appEventPlanner = new ApplicationUser
             {
-                UserName = "EventPlanner1@BookIt.ie", //THIS NEEDS TO COME FROM LOGIN INFO NOT HARDCODED
-                Email = "EventPlanner1@BookIt.ie" //THIS NEEDS TO COME FROM LOGIN INFO NOT HARDCODED
+                UserName = "EventPlanner1@BookIt.ie", 
+                Email = "EventPlanner1@BookIt.ie" 
             };
             IdUserResult = userEventPlanner.Create(appEventPlanner, "Pa$$wordEvntPlanner1");
 
-            // Create a UserManager object based on the UserStore object and the ApplicationDbContext  
-            // object. Note that you can create new objects and use them as parameters in
-            // a single line of code, rather than using multiple lines of code, as you did
-            // for the RoleManager object.
             var userMgr = new UserManager<ApplicationUser>(new UserStore<ApplicationUser>(context));
             var appUser = new ApplicationUser
             {
@@ -56,6 +54,7 @@ namespace Web3project_BookIT.Logic
 
             // If the new "canEdit" user was successfully created, 
             // add the "canEdit" user to the "canEdit" role. 
+            //Same "canAddEvents" role.
             if (!userMgr.IsInRole(userMgr.FindByEmail("canEditUser@BookIT.com").Id, "canEdit"))
             {
                 IdUserResult = userMgr.AddToRole(userMgr.FindByEmail("canEditUser@BookIT.com").Id, "canEdit");

@@ -7,6 +7,7 @@ using System.Web.UI.WebControls;
 using Web3project_BookIT.Models;
 using System.Web.ModelBinding;
 
+//Code to display individual tickets on a seperate page
 namespace Web3project_BookIT
 {
     public partial class TicketDetails : System.Web.UI.Page

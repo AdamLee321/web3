@@ -24,7 +24,7 @@ namespace Web3project_BookIT
             Database.SetInitializer(new TicketDatabaseInitializer());
 
             //Create the custom role and user
-            RoleActions roleActions = new RoleActions();
+            Logic.Roles roleActions = new Logic.Roles();
             roleActions.AddUserAndRole();
 
             // Add Routes.

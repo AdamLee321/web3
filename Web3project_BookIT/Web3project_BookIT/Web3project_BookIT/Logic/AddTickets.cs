@@ -8,7 +8,7 @@ namespace Web3project_BookIT.Logic
 {
     public class AddTickets
     {
-
+        //Adding the Ticket to the DB. 
         public bool AddTicket(string TicketName, string TicketTime, string TicketDate, string TicketDesc, string TicketVenue, string TicketPrice, string TicketCategory, string TicketImagePath)
         {
             var myTicket = new Ticket();

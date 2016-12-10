@@ -12,6 +12,7 @@ namespace Web3project_BookIT.Admin
 {
     public partial class AdminPage : System.Web.UI.Page
     {
+        //Admin Actions Add Remove Ticket & Add Venue to the DB.
         protected void Page_Load(object sender, EventArgs e)
         {
             string TicketAction = Request.QueryString["TicketAction"];
@@ -31,6 +32,7 @@ namespace Web3project_BookIT.Admin
             }
         }
 
+        //Add the ticket with image
         protected void AddTicketButton_Click(object sender, EventArgs e)
         {
             Boolean fileOK = false;
@@ -134,21 +136,7 @@ namespace Web3project_BookIT.Admin
                 LabelAddStatus.Text = "Unable to add new venue to database.";
             }
         }
-        protected void Submit(object sender, EventArgs e)
-        {
-            string query = "INSERT INTO [Blogs] VALUES (@Title, @Body)";
-            string conString = ConfigurationManager.ConnectionStrings["constr"].ConnectionString;
-            using (SqlConnection con = new SqlConnection(conString))
-            {
-                using (SqlCommand cmd = new SqlCommand(query, con))
-                {
-                    cmd.Parameters.AddWithValue("@Title", txtTitle.Text);
-                    cmd.Parameters.AddWithValue("@Body", txtBody.Text);
-                    con.Open();
-                    cmd.ExecuteNonQuery();
-                    con.Close();
-                }
-            }
-        }
+
+        //Blog Addition and removal goes here and displayed on the news page
     }
 }
