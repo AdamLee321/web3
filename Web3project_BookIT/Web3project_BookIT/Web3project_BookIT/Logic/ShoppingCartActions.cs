@@ -11,7 +11,7 @@ namespace Web3project_BookIT.Logic
     {
         public string ShoppingCartId { get; set; }
 
-        private TicketContext _db = new TicketContext();
+        private Models.TicketContext _db = new Models.TicketContext();
 
         public const string CartSessionKey = "CartId";
 
@@ -143,7 +143,7 @@ namespace Web3project_BookIT.Logic
 
         public void RemoveItem(string removeCartID, int removeTicketID)
         {
-            using (var _db = new TicketContext())
+            using (var _db = new Models.TicketContext())
             {
                 try
                 {
@@ -164,7 +164,7 @@ namespace Web3project_BookIT.Logic
 
         public void UpdateItem(string updateCartID, int updateTicketID, int quantity)
         {
-            using (var _db = new TicketContext())
+            using (var _db = new Models.TicketContext())
             {
                 try
                 {

@@ -57,8 +57,8 @@ namespace Web3project_BookIT.Checkout
             Response.Redirect("CheckoutError.aspx?" + "Desc=Amount%20total%20mismatch.");
           }
 
-          // Get DB context.
-          TicketContext _db = new TicketContext();
+                    // Get DB context.
+                    Models.TicketContext _db = new Models.TicketContext();
 
           // Add order to DB.
           _db.Orders.Add(myOrder);

@@ -21,7 +21,7 @@ namespace Web3project_BookIT.Logic
             myTicket.ImagePath = TicketImagePath;
             myTicket.CategoryID = Convert.ToInt32(TicketCategory);
 
-            using (TicketContext _db = new TicketContext())
+            using (Models.TicketContext _db = new Models.TicketContext())
             {
                 // Add ticket to the DB.
                 _db.Ticket.Add(myTicket);

@@ -39,26 +39,50 @@ height: 16px;
 
 
 
-    <h2>BookIT.</h2>
-    <div class="form-horizontal">
-    <h3>Contact Us.</h3>
-        <div class="form-group">
-        
-            <asp:TextBox ID="TextBox1" runat="server" Width="186px" BackColor="#ffcc66" BorderColor="Black"></asp:TextBox>
-        
-            <br />
-            <br />
-            <asp:TextBox ID="TextBox2" runat="server" Width="186px" BackColor="#ffcc66" BorderColor="Black"></asp:TextBox>
-            <br />
-            <br />
-            <asp:TextBox ID="TextBox3" runat="server" Height="60px" Width="186px" BackColor="#ffcc66" BorderColor="Black" TextMode="MultiLine"></asp:TextBox>
-        
-            <br />
-            <br />
-            <asp:Button ID="Button1" runat="server" style="margin-left: 16px" Text="Send" Width="75px" />
-        
-            </div>
-        
+    <h2><%: Title %>.</h2>
+
+    <div class="row">
+        <div class="col-md-8">
+            <section id="loginForm">
+                <div class="form-horizontal">
+                    <h4>Contact Us</h4>
+                    <hr />
+                    <asp:PlaceHolder runat="server" ID="ErrorMessage" Visible="false">
+                        <p class="text-danger">
+                            <asp:Literal runat="server" ID="FailureText" />
+                        </p>
+                    </asp:PlaceHolder>
+                    <div class="form-group">
+                        <asp:Label runat="server" AssociatedControlID="Name" CssClass="col-md-2 control-label">Full Name</asp:Label>
+                        <div class="col-md-10">
+                            <asp:TextBox runat="server" ID="FullName" CssClass="form-control" TextMode="SingleLine" />
+                            <asp:RequiredFieldValidator runat="server" ControlToValidate="Name"
+                                CssClass="text-danger" ErrorMessage="Your Full name is required." />
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <asp:Label runat="server" AssociatedControlID="Email" CssClass="col-md-2 control-label">Email</asp:Label>
+                        <div class="col-md-10">
+                            <asp:TextBox runat="server" ID="Email" CssClass="form-control" TextMode="Email" />
+                            <asp:RequiredFieldValidator runat="server" ControlToValidate="Email"
+                                CssClass="text-danger" ErrorMessage="The email field is required." />
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <asp:Label runat="server" AssociatedControlID="Message" CssClass="col-md-2 control-label">Message</asp:Label>
+                        <div class="col-md-10">
+                            <asp:TextBox runat="server" ID="Message" TextMode="MultiLine" CssClass="form-control" />
+                            <asp:RequiredFieldValidator runat="server" ControlToValidate="Message" CssClass="text-danger" ErrorMessage="A Message is required." />
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-md-offset-2 col-md-10">
+                            <asp:Button runat="server" OnClick="Submit" Text="Submit" CssClass="btn btn-default" />
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
         </div>
     <address>
         123 Sligo IT<br />
@@ -161,4 +185,5 @@ height: 16px;
     <script src="assets/plugins/4jquery.parallax-1.1.3.js"></script>
     <script src="assets/js/custom.js"></script>
      
+     </div>
 </asp:Content>

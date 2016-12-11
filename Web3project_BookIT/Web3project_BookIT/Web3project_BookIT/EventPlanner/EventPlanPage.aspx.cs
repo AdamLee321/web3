@@ -87,7 +87,7 @@ namespace Web3project_BookIT.EventPlanner
         public IQueryable GetTickets()
         {
             var _db = new Models.TicketContext();
-            IQueryable query = _db.News;
+            IQueryable query = _db.Venue;
             return query;
         }
         protected void AddVenueButton_Click(object sender, EventArgs e)

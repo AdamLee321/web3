@@ -18,18 +18,14 @@ namespace Web3project_BookIT
         {
             
         }
-        //public IQueryable<News> GetNews([QueryString("id")] int? NewsID)
+        //public IQueryable<New> GetNews()
         //{
         //    var _db = new Models.TicketContext();
-        //    IQueryable<News> query = _db.News;
-        //    if (NewsID.HasValue && NewsID > 0)
-        //    {
-        //        query = query.Where(p => p.NewsID == NewsID);
-        //    }
+        //    IQueryable<New> query = _db.New;
         //    return query;
         //}
-    
-            
+
+
 
         //private void PopulateBlog()
         //{

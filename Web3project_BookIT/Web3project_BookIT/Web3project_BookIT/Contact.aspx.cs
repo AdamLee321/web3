@@ -96,6 +96,9 @@ namespace Web3project_BookIT
             //Label2.Text = Rating1.CurrentRating.ToString();
         }
 
+        protected void Submit(object sender, EventArgs e)
+        {
 
+        }
     }
 }

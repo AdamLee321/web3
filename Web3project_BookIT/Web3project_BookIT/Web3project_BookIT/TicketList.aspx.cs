@@ -20,7 +20,7 @@ namespace Web3project_BookIT
                     [QueryString("id")] int? categoryId,
                     [RouteData] string categoryName)
         {
-            var _db = new TicketContext();
+            var _db = new Models.TicketContext();
             IQueryable<Ticket> query = _db.Ticket;
 
             if (categoryId.HasValue && categoryId > 0)

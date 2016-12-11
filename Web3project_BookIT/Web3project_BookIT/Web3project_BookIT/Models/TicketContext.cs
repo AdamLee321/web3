@@ -19,6 +19,5 @@ namespace Web3project_BookIT.Models
         public DbSet<Order> Orders { get; set; } //Order info
         public DbSet<OrderDetail> OrderDetails { get; set; } //Order info
         public DbSet<Venue> Venue { get; set; } // Venue Details
-        public DbSet<News> News { get; set; }
     }
 }

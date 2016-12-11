@@ -16,7 +16,7 @@ namespace Web3project_BookIT.Logic
             myVenue.County = VenueCounty;
             myVenue.Capacity = Convert.ToInt32(VenueCapacity);
             
-            using (TicketContext _db = new TicketContext())
+            using (Models.TicketContext _db = new Models.TicketContext())
             {
                 // Add venue to the DB.
                 _db.Venue.Add(myVenue);

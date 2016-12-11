@@ -41,7 +41,7 @@ namespace Web3project_BookIT.Checkout
           TransactionId.Text = PaymentConfirmation;
 
 
-          TicketContext _db = new TicketContext();
+                    Models.TicketContext _db = new Models.TicketContext();
           // Get the current order id.
           int currentOrderId = -1;
           if (Session["currentOrderId"] != string.Empty)
