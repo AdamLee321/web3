@@ -69,9 +69,17 @@ height: 16px;
                         </div>
                     </div>
                     <div class="form-group">
+                        <asp:Label runat="server" AssociatedControlID="Subject" CssClass="col-md-2 control-label">Subject</asp:Label>
+                        <div class="col-md-10">
+                            <asp:TextBox runat="server" ID="Subject" CssClass="form-control" TextMode="SingleLine" />
+                            <asp:RequiredFieldValidator runat="server" ControlToValidate="Subject"
+                                CssClass="text-danger" ErrorMessage="Subject is required." />
+                        </div>
+                    </div>
+                    <div class="form-group">
                         <asp:Label runat="server" AssociatedControlID="Message" CssClass="col-md-2 control-label">Message</asp:Label>
                         <div class="col-md-10">
-                            <asp:TextBox runat="server" ID="Message" TextMode="MultiLine" CssClass="form-control" />
+                            <asp:TextBox runat="server" ID="Message" TextMode="MultiLine" CssClass="form-control" Height="100px" />
                             <asp:RequiredFieldValidator runat="server" ControlToValidate="Message" CssClass="text-danger" ErrorMessage="A Message is required." />
                         </div>
                     </div>
