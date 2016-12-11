@@ -38,7 +38,7 @@
                                 <td>
                                     <a href="<%#: GetRouteUrl("TicketByNameRoute", new {ticketName = Item.TicketName}) %>">
                                     <image src='/Catalog/Images/Thumbs/<%#:Item.ImagePath%>'
-                                    width="100" height="75" border="1" />
+                                    width="250" height="250" border="1" />
                                     </a>
                                 </td>
                             </tr>

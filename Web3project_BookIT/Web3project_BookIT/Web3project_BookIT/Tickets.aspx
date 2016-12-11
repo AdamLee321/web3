@@ -6,7 +6,7 @@
     <link href="assets/css/style.css" rel="stylesheet" />
     <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
 
-    
+  
     <div class="jumbotron" id="imageheader">
 
         <h1>BookIT.</h1>
@@ -15,7 +15,7 @@
         <p class="lead">This is the BookIT website where you can purchase tickets 
             for events or log in as an event planner and post rickets to your event here.</p>
     </div>
-
+    
     <div class="row">
         <div class="col-md-4">
             <h2>Getting started</h2>

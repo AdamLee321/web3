@@ -1,6 +1,7 @@
 ﻿<%@ Page Title="Account Confirmation" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Confirm.aspx.cs" Inherits="Web3project_BookIT.Account.Confirm" Async="true" %>
 
 <asp:Content runat="server" ID="BodyContent" ContentPlaceHolderID="MainContent">
+
     <link href="assets/css/bootstrap.css" rel="stylesheet" />
   
     <link href="assets/css/font-awesome.min.css" rel="stylesheet" />

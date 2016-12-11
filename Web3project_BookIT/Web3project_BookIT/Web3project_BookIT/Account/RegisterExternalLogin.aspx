@@ -1,6 +1,14 @@
 ﻿<%@ Page Title="Register an external login" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="RegisterExternalLogin.aspx.cs" Inherits="Web3project_BookIT.Account.RegisterExternalLogin" Async="true" %>
 
 <asp:Content runat="server" ID="BodyContent" ContentPlaceHolderID="MainContent">
+      <link href="assets/css/bootstrap.css" rel="stylesheet" />
+  
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet" />
+   
+    <link href="assets/css/style.css" rel="stylesheet" />
+   
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
+     
 <h3>Register with your <%: ProviderName %> account</h3>
 
     <asp:PlaceHolder runat="server">
@@ -30,4 +38,9 @@
             </div>
         </div>
     </asp:PlaceHolder>
+    <script src="script.js"></script>
+    <script src="assets/plugins/jquery-1.10.2.js"></script>
+    <script src="assets/plugins/bootstrap.js"></script>
+    <script src="assets/plugins/4jquery.parallax-1.1.3.js"></script>
+    <script src="assets/js/custom.js"></script>
 </asp:Content>
