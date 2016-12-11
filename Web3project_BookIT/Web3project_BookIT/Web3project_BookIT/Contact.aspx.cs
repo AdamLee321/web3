@@ -8,6 +8,7 @@ using System.Data.SqlClient;
 using Web3project_BookIT.Logic;
 using Web3project_BookIT.Models;
 using System.Collections.Specialized;
+using System.Net;
 
 namespace Web3project_BookIT
 {
@@ -96,9 +97,45 @@ namespace Web3project_BookIT
             //Label2.Text = Rating1.CurrentRating.ToString();
         }
 
+        //Contact Us Form Sending to a gmail from an email
         protected void Submit(object sender, EventArgs e)
         {
+            try
+            {
+                MailMessage mm = new MailMessage("bookittestemail@gmail.com", "adamleeplaysbball@hotmail.com");
+                mm.Subject = Subject.Text;
+                mm.Body = "Name: " + FullName.Text + "<br /><br />Email: " + Email.Text + "<br />" + Message.Text;
+                mm.IsBodyHtml = true;
+                SmtpClient smtp = new SmtpClient();
+                smtp.Host = "smtp.gmail.com";
+                smtp.EnableSsl = true;
+                NetworkCredential NetworkCred = new NetworkCredential();
+                NetworkCred.UserName = "bookittestemail@gmail.com";
+                NetworkCred.Password = "BookIT123$";
+                smtp.UseDefaultCredentials = true;
+                smtp.Credentials = NetworkCred;
+                smtp.Port = 587;
+                smtp.Send(mm);
+                DisplayMessage.Text = "Your E-mail Sent Successfully!";
+            }
+            catch
+            {
+                DisplayMessage.Text = "Your E-mail Did Not Send!";
+            }
 
+            //string body = "From:"+Email.Text+"\n";
+            //body += "Subject:" + Subject.Text + "\n";
+            //body += "Message:" + Message.Text + "\n";
+            //var smtp = new SmtpClient();
+            //{
+            //    smtp.Host = "receive email, sender email";
+            //    smtp.Port = 587;
+            //    smtp.EnableSsl = true;
+            //    smtp.DeliveryMethod = SmtpDeliveryMethod.Network;
+            //    smtp.Credentials = new NetworkCredential(Email.Text, Name.Text);
+            //    smtp.Timeout = 20000;
+            //}
+            //smtp.Send(Email.Text, body);
         }
     }
 }
