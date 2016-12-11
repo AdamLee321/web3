@@ -31,7 +31,7 @@ namespace Web3project_BookIT.Logic
                     ItemId = Guid.NewGuid().ToString(),
                     TicketId = id,
                     CartId = ShoppingCartId,
-                    Ticket = _db.Tickets.SingleOrDefault(
+                    Ticket = _db.News.SingleOrDefault(
                    e => e.TicketID == id),
                     Quantity = 1,
                     DateCreated = DateTime.Now

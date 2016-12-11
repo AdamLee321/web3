@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Configuration;
+using System.Data;
 using System.Data.SqlClient;
 using System.Linq;
 using System.Web;
@@ -95,7 +96,7 @@ namespace Web3project_BookIT.Admin
         public IQueryable GetTickets()
         {
             var _db = new Models.TicketContext();
-            IQueryable query = _db.Tickets;
+            IQueryable query = _db.News;
             return query;
         }
 
@@ -104,10 +105,10 @@ namespace Web3project_BookIT.Admin
             using (var _db = new Models.TicketContext())
             {
                 int TicketId = Convert.ToInt16(DropDownRemoveTicket.SelectedValue);
-                var myItem = (from c in _db.Tickets where c.TicketID == TicketId select c).FirstOrDefault();
+                var myItem = (from c in _db.News where c.TicketID == TicketId select c).FirstOrDefault();
                 if (myItem != null)
                 {
-                    _db.Tickets.Remove(myItem);
+                    _db.News.Remove(myItem);
                     _db.SaveChanges();
 
                     // Reload the page.
@@ -136,7 +137,5 @@ namespace Web3project_BookIT.Admin
                 LabelAddStatus.Text = "Unable to add new venue to database.";
             }
         }
-
-        //Blog Addition and removal goes here and displayed on the news page
     }
 }

@@ -44,6 +44,11 @@ namespace Web3project_BookIT
               "Ticket/{ticketName}",
               "~/TicketDetails.aspx"
             );
+            routes.MapPageRoute(
+               "DisplayBlog", 
+               "Blogs/{BlogId}/{Slug}.aspx", 
+               "~/News.aspx"
+            );
         }
     }
 }

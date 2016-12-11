@@ -21,7 +21,7 @@ namespace Web3project_BookIT
                     [RouteData] string categoryName)
         {
             var _db = new TicketContext();
-            IQueryable<Ticket> query = _db.Tickets;
+            IQueryable<Ticket> query = _db.News;
 
             if (categoryId.HasValue && categoryId > 0)
             {

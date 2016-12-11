@@ -289,7 +289,7 @@
     <Content Include="Images\Bookit_FAVICON.png" />
     <Content Include="News.aspx" />
     <Content Include="PaymentStripe.aspx" />
-    <Content Include="Scripts\script.js" />
+    <Content Include="script.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Admin\Web.config" />

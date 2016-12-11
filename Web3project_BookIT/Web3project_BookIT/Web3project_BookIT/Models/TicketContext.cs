@@ -14,7 +14,7 @@ namespace Web3project_BookIT.Models
     {
         }
         public DbSet<Category> Categories { get; set; }
-        public DbSet<Ticket> Tickets { get; set; }
+        public DbSet<Ticket> News { get; set; }
         public DbSet<CartItem> ShoppingCartItems { get; set; } //Adding the shopping cart to the DBContext
         public DbSet<Order> Orders { get; set; } //Order info
         public DbSet<OrderDetail> OrderDetails { get; set; } //Order info

@@ -138,42 +138,4 @@
     <asp:Label ID="LabelAddVenue" runat="server" Text=""></asp:Label>
     <p></p>
     <p></p>
-    <h3>Add News</h3>
-    <table border="0" cellpadding="0" cellspacing="0">
-    <tr>
-        <td>
-            Title:
-        </td>
-    </tr>
-    <tr>
-        <td>
-            <asp:TextBox ID="txtTitle" runat="server" Width = "550" />
-        </td>
-    </tr>
-    <tr>
-        <td>
-            &nbsp;
-        </td>
-    </tr>
-    <tr>
-        <td>
-            Body:
-        </td>
-    </tr>
-    <tr>
-        <td>
-            <asp:TextBox ID="txtBody" runat="server" TextMode="MultiLine" />
-        </td>
-    </tr>
-    <tr>
-        <td>
-            &nbsp;
-        </td>
-    </tr>
-    <tr>
-        <td>
-            <asp:Button ID="btnSubmit" Text="Submit News" runat="server" OnClick="Submit" />
-        </td>
-    </tr>
-</table>
 </asp:Content>

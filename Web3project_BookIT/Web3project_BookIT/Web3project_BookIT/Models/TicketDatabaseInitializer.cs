@@ -12,7 +12,7 @@ namespace Web3project_BookIT.Models
         protected override void Seed(TicketContext context)
         {
             GetCategories().ForEach(c => context.Categories.Add(c));
-            GetTickets().ForEach(p => context.Tickets.Add(p));
+            GetTickets().ForEach(p => context.News.Add(p));
             GetVenues().ForEach(v => context.Venue.Add(v));
         }
 
