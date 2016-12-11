@@ -5,28 +5,31 @@ using System.Data;
 using System.Data.SqlClient;
 using System.Linq;
 using System.Web;
+using System.Web.ModelBinding;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using Web3project_BookIT.Models;
 
 namespace Web3project_BookIT
 {
-    public partial class Newblog : System.Web.UI.Page
+    public partial class News : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            SqlConnection conn = new SqlConnection(@"Data Source=(LocalDB)\v11.0;AttachDbFilename=C:\Users\adaml\Desktop\BookIT\web3\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\App_Data\Web3project_BookIT.mdf;Integrated Security=True");
-            conn.Open();
-            SqlCommand cmd = new SqlCommand("Insert into Blog(Title, Body) values('Third News Post', 'we hope you it works');");
-            cmd.CommandType = CommandType.Text;
-            cmd.Connection = conn;
-            //cmd.CommandText = "INSERT INTO Blog VALUES ('" + txtTitle.Text + "','" + txtBody.Text + "')";
-            cmd.ExecuteNonQuery();
-            conn.Close();
-            //if (!this.IsPostBack)
-            //{
-            //    this.PopulateBlog();
-            //}
+            
         }
+        //public IQueryable<News> GetNews([QueryString("id")] int? NewsID)
+        //{
+        //    var _db = new Models.TicketContext();
+        //    IQueryable<News> query = _db.News;
+        //    if (NewsID.HasValue && NewsID > 0)
+        //    {
+        //        query = query.Where(p => p.NewsID == NewsID);
+        //    }
+        //    return query;
+        //}
+    
+            
 
         //private void PopulateBlog()
         //{
@@ -54,14 +57,7 @@ namespace Web3project_BookIT
         //}
         protected void Submit(object sender, EventArgs e)
         {
-        //    SqlConnection conn = new SqlConnection(@"Data Source=(LocalDB)\v11.0;AttachDbFilename=C:\Users\adaml\Desktop\BookIT\web3\Web3project_BookIT\Web3project_BookIT\Web3project_BookIT\App_Data\Web3project_BookIT.mdf;Integrated Security=True");
-        //    conn.Open();
-        //    SqlCommand cmd = new SqlCommand("Insert into Blog(Title, Body) values('Third News Post', 'we hope you it works');");
-        //    cmd.CommandType = CommandType.Text;
-        //    cmd.Connection = conn;
-        //    //cmd.CommandText = "INSERT INTO Blog VALUES ('" + txtTitle.Text + "','" + txtBody.Text + "')";
-        //    cmd.ExecuteNonQuery();
-        //    conn.Close();
+        
         }
     }
 }

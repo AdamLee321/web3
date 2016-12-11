@@ -11,13 +11,14 @@ namespace Web3project_BookIT.Models
     public class TicketContext : DbContext
     {
         public TicketContext() : base("Web3project_BookIT")
-    {
+        {
         }
         public DbSet<Category> Categories { get; set; }
-        public DbSet<Ticket> News { get; set; }
+        public DbSet<Ticket> Ticket { get; set; }
         public DbSet<CartItem> ShoppingCartItems { get; set; } //Adding the shopping cart to the DBContext
         public DbSet<Order> Orders { get; set; } //Order info
         public DbSet<OrderDetail> OrderDetails { get; set; } //Order info
         public DbSet<Venue> Venue { get; set; } // Venue Details
+        public DbSet<News> News { get; set; }
     }
 }

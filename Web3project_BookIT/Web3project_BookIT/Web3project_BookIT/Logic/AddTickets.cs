@@ -24,7 +24,7 @@ namespace Web3project_BookIT.Logic
             using (TicketContext _db = new TicketContext())
             {
                 // Add ticket to the DB.
-                _db.News.Add(myTicket);
+                _db.Ticket.Add(myTicket);
                 _db.SaveChanges();
             }
             // Success.

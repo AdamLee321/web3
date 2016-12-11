@@ -96,7 +96,7 @@ namespace Web3project_BookIT.Admin
         public IQueryable GetTickets()
         {
             var _db = new Models.TicketContext();
-            IQueryable query = _db.News;
+            IQueryable query = _db.Ticket;
             return query;
         }
 
@@ -105,10 +105,10 @@ namespace Web3project_BookIT.Admin
             using (var _db = new Models.TicketContext())
             {
                 int TicketId = Convert.ToInt16(DropDownRemoveTicket.SelectedValue);
-                var myItem = (from c in _db.News where c.TicketID == TicketId select c).FirstOrDefault();
+                var myItem = (from c in _db.Ticket where c.TicketID == TicketId select c).FirstOrDefault();
                 if (myItem != null)
                 {
-                    _db.News.Remove(myItem);
+                    _db.Ticket.Remove(myItem);
                     _db.SaveChanges();
 
                     // Reload the page.

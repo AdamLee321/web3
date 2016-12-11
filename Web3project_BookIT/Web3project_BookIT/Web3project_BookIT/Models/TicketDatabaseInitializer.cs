@@ -12,8 +12,9 @@ namespace Web3project_BookIT.Models
         protected override void Seed(TicketContext context)
         {
             GetCategories().ForEach(c => context.Categories.Add(c));
-            GetTickets().ForEach(p => context.News.Add(p));
+            GetTickets().ForEach(p => context.Ticket.Add(p));
             GetVenues().ForEach(v => context.Venue.Add(v));
+            GetNews().ForEach(n => context.News.Add(n));
         }
 
         private static List<Category> GetCategories()
@@ -172,6 +173,27 @@ namespace Web3project_BookIT.Models
             }
             };
             return venues;
+        }
+
+        private static List<News> GetNews()
+        {
+            var news = new List<News> {
+                new News
+                {
+                    NewsID = 1,
+                    NewsTitle = "First Post",
+                    NewsBody = "First Body"
+                },
+                new News
+                {
+                    NewsID = 2,
+                    NewsTitle = "Second Post",
+                    NewsBody = "Second Body"
+                },
+
+            };
+
+            return news;
         }
     }
 }

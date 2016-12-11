@@ -10,7 +10,7 @@
 namespace Web3project_BookIT {
     
     
-    public partial class Newblog {
+    public partial class News {
         
         /// <summary>
         /// lblTitle control.
