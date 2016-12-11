@@ -19,7 +19,7 @@ namespace Web3project_BookIT.Logic
             using (Models.TicketContext _db = new Models.TicketContext())
             {
                 // Add venue to the DB.
-                _db.Venue.Add(myVenue);
+                _db.Venues.Add(myVenue);
                 _db.SaveChanges();
             }
             // Success.

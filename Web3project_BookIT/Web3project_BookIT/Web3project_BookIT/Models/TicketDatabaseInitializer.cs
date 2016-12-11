@@ -13,7 +13,7 @@ namespace Web3project_BookIT.Models
         {
             GetCategories().ForEach(c => context.Categories.Add(c));
             GetTickets().ForEach(p => context.Ticket.Add(p));
-            GetVenues().ForEach(v => context.Venue.Add(v));
+            GetVenue().ForEach(v => context.Venues.Add(v));
         }
 
         private static List<Category> GetCategories()
@@ -82,7 +82,7 @@ namespace Web3project_BookIT.Models
                     TicketName = "Frozen On Ice",
                     Description = "Frozen the movie but on ice ",
                     TicketTime = "17:00",
-                    TicketDate = "12/07/17",
+                    TicketDate = "05/01/17",
                     TicketVenue = "RDS",
                     ImagePath="",
                     UnitPrice = 20.00,
@@ -117,7 +117,7 @@ namespace Web3project_BookIT.Models
             return tickets;
         }
 
-        private static List<Venue> GetVenues()
+        private static List<Venue> GetVenue()
         {
             var venues = new List<Venue> {
             new Venue

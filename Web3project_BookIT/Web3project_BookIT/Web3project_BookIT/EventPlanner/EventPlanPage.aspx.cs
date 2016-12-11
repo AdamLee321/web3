@@ -58,7 +58,7 @@ namespace Web3project_BookIT.EventPlanner
 
                 // Add ticket data to DB.
                 AddTickets Tickets = new AddTickets();
-                bool addSuccess = Tickets.AddTicket(AddTicketName.Text, AddTicketTime.Text, AddTicketDate.Text, AddTicketDescription.Text, AddTicketVenue.Text,
+                bool addSuccess = Tickets.AddTicket(AddTicketName.Text, AddTicketTime.Text, AddTicketDate.Text, AddTicketDescription.Text, DropDownAddCategory.SelectedValue,
                     AddTicketPrice.Text, DropDownAddCategory.SelectedValue, TicketImage.FileName);
                 if (addSuccess)
                 {
@@ -87,7 +87,13 @@ namespace Web3project_BookIT.EventPlanner
         public IQueryable GetTickets()
         {
             var _db = new Models.TicketContext();
-            IQueryable query = _db.Venue;
+            IQueryable query = _db.Venues;
+            return query;
+        }
+        public IQueryable GetVenues()
+        {
+            var _db = new Models.TicketContext();
+            IQueryable query = _db.Venues;
             return query;
         }
         protected void AddVenueButton_Click(object sender, EventArgs e)

@@ -67,7 +67,7 @@ namespace Web3project_BookIT.Admin
 
                 // Add ticket data to DB.
                 AddTickets Tickets = new AddTickets();
-                bool addSuccess = Tickets.AddTicket(AddTicketName.Text, AddTicketTime.Text, AddTicketDate.Text, AddTicketDescription.Text, AddTicketVenue.Text,
+                bool addSuccess = Tickets.AddTicket(AddTicketName.Text, AddTicketTime.Text, AddTicketDate.Text, AddTicketDescription.Text, DropDownAddCategory.SelectedValue,
                     AddTicketPrice.Text, DropDownAddCategory.SelectedValue, TicketImage.FileName);
                 if (addSuccess)
                 {
@@ -97,6 +97,13 @@ namespace Web3project_BookIT.Admin
         {
             var _db = new Models.TicketContext();
             IQueryable query = _db.Ticket;
+            return query;
+        }
+
+        public IQueryable GetVenues()
+        {
+            var _db = new Models.TicketContext();
+            IQueryable query = _db.Venues;
             return query;
         }
 

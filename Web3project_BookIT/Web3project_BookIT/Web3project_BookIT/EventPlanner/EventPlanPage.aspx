@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="EventPlanPage.aspx.cs" Inherits="Web3project_BookIT.EventPlanner.EventPlanPage" %>
+﻿<%@ Page Title="Event Planner Page" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="EventPlanPage.aspx.cs" Inherits="Web3project_BookIT.EventPlanner.EventPlanPage" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     <link href="assets/css/bootstrap.css" rel="stylesheet" />
@@ -8,7 +8,7 @@
     <link href="assets/css/style.css" rel="stylesheet" />
    
     <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
-<h1>Event Planner</h1>
+    <h2><%: Title %>.</h2>
     <hr />
     <h3>Add Ticket:</h3>
     <table>
@@ -62,9 +62,11 @@
         <tr>
             <td><asp:Label ID="LabelTicketVenue" runat="server">Venue:</asp:Label></td>
             <td>
-                <asp:TextBox ID="AddTicketVenue" runat="server"></asp:TextBox>
-                <asp:RequiredFieldValidator ID="RequiredFieldValidator7" runat="server" Text="* Venue required." ControlToValidate="AddTicketVenue" SetFocusOnError="true" Display="Dynamic"></asp:RequiredFieldValidator>
-                <asp:RegularExpressionValidator ID="RegularExpressionValidator7" runat="server" Text="* Venue name required $." ControlToValidate="AddTicketVenue" SetFocusOnError="True" Display="Dynamic" ValidationExpression="^[0-9]*(\.)?[0-9]?[0-9]?$"></asp:RegularExpressionValidator>
+                <asp:DropDownList ID="DropDownTicketVenue" runat="server" 
+                    ItemType="Web3project_BookIT.Models.Venue" 
+                    SelectMethod="GetVenues" DataTextField="VenueName" 
+                    DataValueField="VenueID" >
+                </asp:DropDownList>
             </td>
         </tr>
         <tr>

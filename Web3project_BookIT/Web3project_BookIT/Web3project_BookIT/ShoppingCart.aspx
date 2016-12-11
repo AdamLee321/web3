@@ -1,15 +1,7 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="ShoppingCart.aspx.cs" Inherits="Web3project_BookIT.ShoppingCart" %>
+﻿<%@ Page Title="Your Shopping Cart" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="ShoppingCart.aspx.cs" Inherits="Web3project_BookIT.ShoppingCart" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
-      <link href="assets/css/bootstrap.css" rel="stylesheet" />
-  
-    <link href="assets/css/font-awesome.min.css" rel="stylesheet" />
-   
-    <link href="assets/css/style.css" rel="stylesheet" />
-   
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
-
     <div id="ShoppingCartTitle" runat="server" class="ContentHead"><h1>Shopping Cart</h1></div>
-    <asp:GridView ID="CartList" runat="server" AutoGenerateColumns="False" ShowFooter="True" GridLines="Vertical" CellPadding="4"
+    <asp:GridView ID="CartList" runat="server" AutoGenerateColumns="False" ShowFooter="False" GridLines="Vertical" CellPadding="4"
         ItemType="Web3project_BookIT.Models.CartItem" SelectMethod="GetShoppingCartItems" 
         CssClass="table table-striped table-bordered" >   
         <Columns>
@@ -58,12 +50,4 @@
       </td>
     </tr>
     </table>   
-    
-    
- 
-            
-       <script src="assets/plugins/jquery-1.10.2.js"></script>   
-    <script src="assets/plugins/bootstrap.js"></script>
-    <script src="assets/plugins/4jquery.parallax-1.1.3.js"></script>
-    <script src="assets/js/custom.js"></script>  
 </asp:Content>

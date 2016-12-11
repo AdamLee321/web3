@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="News.aspx.cs" Inherits="Web3project_BookIT.News" %>
+﻿<%@ Page Title="News" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="News.aspx.cs" Inherits="Web3project_BookIT.News" %>
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
       <link href="assets/css/bootstrap.css" rel="stylesheet" />
   
@@ -7,7 +7,7 @@
     <link href="assets/css/style.css" rel="stylesheet" />
    
     <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
-   
+    <h2><%: Title %>.</h2>
     <br />
     <div>Write Your Post</div>
     <h2>

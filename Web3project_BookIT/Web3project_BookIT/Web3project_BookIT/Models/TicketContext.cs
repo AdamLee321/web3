@@ -18,6 +18,6 @@ namespace Web3project_BookIT.Models
         public DbSet<CartItem> ShoppingCartItems { get; set; } //Adding the shopping cart to the DBContext
         public DbSet<Order> Orders { get; set; } //Order info
         public DbSet<OrderDetail> OrderDetails { get; set; } //Order info
-        public DbSet<Venue> Venue { get; set; } // Venue Details
+        public DbSet<Venue> Venues { get; set; } // Venue Details
     }
 }

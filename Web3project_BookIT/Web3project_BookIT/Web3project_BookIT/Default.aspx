@@ -15,35 +15,35 @@
         <p class="lead"></p>
         <h2>BookIT can help you find the perfect event or to make your own.</h2>
         <p class="lead">This is the BookIT website where you can purchase tickets 
-            for events or log in as an event planner and post rickets to your event here.</p>
+            for events or log in as an event planner and post tickets to your event here.</p>
     </div>
 
     <div class="row">
         <div class="col-md-4">
-            <h2>Getting started</h2>
+            <h2>Looking for an event?</h2>
             <p>
-                You can view all the tickets we have on sale or you can log-in and purchase tickets though our website.
+                Looking for a great night out or something nice for you and kids? BookIT with us!
             </p>
             <p>
-                <a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301948">Learn more &raquo;</a>
+                <a class="btn btn-default" href="TicketList.aspx">Learn more &raquo;</a>
             </p>
         </div>
         <div class="col-md-4">
-            <h2>Are You An Event Organizer?</h2>
+            <h2>Are you an event planner?</h2>
             <p>
                 Register with us today and sell your tickets from our website.
             </p>
             <p>
-                <a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301949">Learn more &raquo;</a>
+                <a class="btn btn-default" href="Account/RegisterEventPlanner.aspx">Learn more &raquo;</a>
             </p>
         </div>
         <div class="col-md-4">
-            <h2>Web Hosting</h2>
+            <h2>Who are we at BookIT?</h2>
             <p>
-                You can easily find a web hosting company that offers the right mix of features and price for your applications.
+                We bagan this website to allow customers and event organizers to buy and post tickets for events.
             </p>
             <p>
-                <a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301950">Learn more &raquo;</a>
+                <a class="btn btn-default" href="About">Learn more &raquo;</a>
             </p>
         </div>
     </div>
@@ -66,7 +66,7 @@
                         <i class="fa fa-camera fa-4x main-color"></i>
 
 
-                       <a href="Tickets.html"><h3>Events Easily</h3></a>
+                       <a href="Tickets.html"><h3>Find events easily</h3></a>
                         <p>
                            You can view events near you based on your location, so you don't have to look hard.
                         </p>
@@ -96,7 +96,7 @@
                         <i class="fa fa-desktop fa-4x main-color"></i>
 
 
-                       <a href="Account/Register.aspx"><h3>Register With Us</h3></a>
+                       <a href="Account/Register.aspx"><h3>Register With us</h3></a>
                         
                         <p>
                             Sign up for an account and get started going to your favourite events today.

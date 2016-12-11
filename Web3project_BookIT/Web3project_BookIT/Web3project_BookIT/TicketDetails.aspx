@@ -1,12 +1,5 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="TicketDetails.aspx.cs" Inherits="Web3project_BookIT.TicketDetails" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
-     <link href="assets/css/bootstrap.css" rel="stylesheet" />
-  
-    <link href="assets/css/font-awesome.min.css" rel="stylesheet" />
-   
-    <link href="assets/css/style.css" rel="stylesheet" />
-   
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
     <asp:FormView ID="TicketDetail" runat="server" ItemType="Web3project_BookIT.Models.Ticket" SelectMethod ="GetTicket" RenderOuterTable="false">
         <ItemTemplate>
             <div> <!--Detail of single ticket-->
@@ -32,13 +25,14 @@
                         <br />
                         <span><b>Ticket Number:</b>&nbsp;<%#:Item.TicketID %></span>
                         <br />
+                        <a href="/AddToCart.aspx?TicketID=<%#:Item.TicketID %>">               
+                        <span class="TicketListItem">
+                            <b>Add To Cart<b>
+                        </span>           
+                        </a>
                     </td>
                 </tr>
             </table>
         </ItemTemplate>
     </asp:FormView>
-        <script src="assets/plugins/jquery-1.10.2.js"></script>   
-    <script src="assets/plugins/bootstrap.js"></script>
-    <script src="assets/plugins/4jquery.parallax-1.1.3.js"></script>
-    <script src="assets/js/custom.js"></script>
 </asp:Content>

@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="RegisterEventPlanner.aspx.cs" Inherits="Web3project_BookIT.Account.RegisterEventPlanner" %>
+﻿<%@ Page Title="Event Planner Registration" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="RegisterEventPlanner.aspx.cs" Inherits="Web3project_BookIT.Account.RegisterEventPlanner" %>
 <asp:Content runat="server" ID="BodyContent" ContentPlaceHolderID="MainContent">
       <link href="assets/css/bootstrap.css" rel="stylesheet" />
   
@@ -47,6 +47,7 @@
             <div class="col-md-offset-2 col-md-10">
                 <asp:Button runat="server" OnClick="CreateUser_Click" Text="Register" CssClass="btn btn-default" />
             </div>
+            <a href="Register.aspx">Register as a customer &larr;</a>
         </div>
     </div>  
     <script src="script.js"></script>

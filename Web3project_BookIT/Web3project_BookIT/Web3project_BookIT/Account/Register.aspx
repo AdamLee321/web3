@@ -48,6 +48,8 @@
             <div class="col-md-offset-2 col-md-10">
                 <asp:Button runat="server" OnClick="CreateUser_Click" Text="Register" CssClass="btn btn-default" />
             </div>
+            Need an event planner account? <br />
+            <a href="RegisterEventPlanner.aspx">Register as an event planner &rarr;</a>
         </div>
     </div>  
       <script src="script.js"></script>
