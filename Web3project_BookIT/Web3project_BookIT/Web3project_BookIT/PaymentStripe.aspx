@@ -22,18 +22,22 @@
         <h2>Thank your for your interest. Click the pay now button below to complete your purchase</h2>
      </div>
      
-    
+     Enter Ticket Cost: <asp:TextBox ID="TicketPrice" runat="server" BackColor="#ffcc66" BorderColor="Black" Text="120" OnTextChanged="TicketPrice_TextChanged"/>
+    <asp:CompareValidator runat="server" Operator="DataTypeCheck" Type="Integer" 
+     ControlToValidate="TicketPrice" ErrorMessage="Value must be a whole number" />
+    <asp:Label ID="lblChecker" Text="" runat="server" ></asp:Label>
      <script
             src="https://checkout.stripe.com/checkout.js" class="stripe-button"
 
                data-key="pk_test_VaUXp0vgAMBDqVmd1sJAUkm8"
-               data-amount="2000"
+               data-amount='<%= TicketPrice %>';
                data-name="BookIT Payment"
                data-description="Pay Here"
                data-image="https://stripe.com/img/documentation/checkout/marketplace.png"
                data-locale="auto"
                data-zip-code="true"
                data-currency="eur">
+               
 
             </script>
 

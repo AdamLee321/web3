@@ -133,7 +133,7 @@ height: 16px;
     Your Name: <asp:TextBox ID="Name" runat="server" BackColor="#ffcc66" BorderColor="Black" Text="Joe Smith" />
     Ticket Purchased: <asp:TextBox ID="TickeName" BackColor="#ffcc66" BorderColor="Black" runat="server" Text="En Pure" />
     Rating: <asp:TextBox ID="Rating2" runat="server" BackColor="#ffcc66" BorderColor="Black" Text="1-5" />
-     <asp:Button ID="btnValue" runat="server" Text="Submit" OnClick="btnValue_Click" />
+     <%--<asp:Button ID="btnValue" runat="server" Text="Submit" OnClick="btnValue_Click" />--%>
     <asp:Label ID="Label4" runat="server" Text=""></asp:Label>
     <br />
     <asp:Label ID="Label3" runat="server" Text=""></asp:Label>

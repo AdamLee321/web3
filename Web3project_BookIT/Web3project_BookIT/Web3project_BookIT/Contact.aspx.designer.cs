@@ -184,15 +184,6 @@ namespace Web3project_BookIT {
         protected global::System.Web.UI.WebControls.TextBox Rating2;
         
         /// <summary>
-        /// btnValue control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnValue;
-        
-        /// <summary>
         /// Label4 control.
         /// </summary>
         /// <remarks>
