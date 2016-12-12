@@ -4,7 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
-using Web3project_BookIT.Logic;
+using Web3project_BookIT.Controllers;
 
 //Add Ticket to the DB for the event planner logged in user
 namespace Web3project_BookIT.EventPlanner
@@ -32,7 +32,7 @@ namespace Web3project_BookIT.EventPlanner
             if (TicketImage.HasFile)
             {
                 String fileExtension = System.IO.Path.GetExtension(TicketImage.FileName).ToLower();
-                String[] allowedExtensions = { ".gif", ".png", ".jpeg", ".jpg" };
+                String[] allowedExtensions = {".gif", ".png", ".jpeg", ".jpg"};
                 for (int i = 0; i < allowedExtensions.Length; i++)
                 {
                     if (fileExtension == allowedExtensions[i])

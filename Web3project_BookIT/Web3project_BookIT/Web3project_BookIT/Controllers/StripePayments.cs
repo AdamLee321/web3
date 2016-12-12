@@ -4,7 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Threading.Tasks;
 
-namespace Web3project_BookIT.Logic
+namespace Web3project_BookIT.Controllers
 {
     public class StripePayments
     {

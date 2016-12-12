@@ -9,7 +9,7 @@ using System.Web.UI.WebControls;
 using Microsoft.AspNet.Identity;
 using System.Linq;
 using Web3project_BookIT.Models;
-using Web3project_BookIT.Logic;
+using Web3project_BookIT.Controllers;
 
 namespace Web3project_BookIT
 {

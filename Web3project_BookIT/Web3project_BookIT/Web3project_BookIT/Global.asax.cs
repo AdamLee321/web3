@@ -8,7 +8,7 @@ using System.Web.Security;
 using System.Web.SessionState;
 using System.Data.Entity;
 using Web3project_BookIT.Models;
-using Web3project_BookIT.Logic;
+using Web3project_BookIT.Controllers;
 
 namespace Web3project_BookIT
 {
@@ -24,7 +24,7 @@ namespace Web3project_BookIT
             Database.SetInitializer(new TicketDatabaseInitializer());
 
             //Create the custom role and user
-            Logic.Roles roleActions = new Logic.Roles();
+            Controllers.Roles roleActions = new Controllers.Roles();
             roleActions.AddUserAndRole();
 
             // Add Routes.

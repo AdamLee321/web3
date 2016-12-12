@@ -60,8 +60,8 @@ namespace Web3project_BookIT.Checkout
           }
 
           // Clear the shopping cart.
-          using (Logic.ShoppingCartActions usersShoppingCart =
-              new Logic.ShoppingCartActions())
+          using (Controllers.ShoppingCartActions usersShoppingCart =
+              new Controllers.ShoppingCartActions())
           {
             usersShoppingCart.EmptyCart();
           }

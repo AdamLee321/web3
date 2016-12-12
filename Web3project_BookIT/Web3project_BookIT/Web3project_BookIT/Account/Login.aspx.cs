@@ -38,7 +38,7 @@ namespace Web3project_BookIT.Account
                 switch (result)
                 {
                     case SignInStatus.Success:
-                        Web3project_BookIT.Logic.ShoppingCartActions usersShoppingCart = new Web3project_BookIT.Logic.ShoppingCartActions();
+                        Web3project_BookIT.Controllers.ShoppingCartActions usersShoppingCart = new Web3project_BookIT.Controllers.ShoppingCartActions();
                         String cartId = usersShoppingCart.GetCartId();
                         usersShoppingCart.MigrateCart(cartId, Email.Text);
                         IdentityHelper.RedirectToReturnUrl(Request.QueryString["ReturnUrl"], Response);

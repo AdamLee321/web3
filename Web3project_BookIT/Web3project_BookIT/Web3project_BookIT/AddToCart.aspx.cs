@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 using System.Diagnostics;
-using Web3project_BookIT.Logic; //Importing the Logic Folder for the shopping cart
+using Web3project_BookIT.Controllers; //Importing the Logic Folder for the shopping cart
 
 //ASP.Net Tutorial plus personal coding
 namespace Web3project_BookIT

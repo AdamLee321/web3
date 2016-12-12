@@ -8,7 +8,7 @@ using Microsoft.AspNet.Identity.EntityFramework;
 
 //docs.microsoft.com/en-us/azure/app-service-web/web-sites-dotnet-deploy-aspnet-mvc-app-membership-oauth-sql-database#using-the-membership-api
 //Code design comes from the address above, my own code and from tutorials by Shane Banks.
-namespace Web3project_BookIT.Logic
+namespace Web3project_BookIT.Controllers
 {
     internal class Roles
     {

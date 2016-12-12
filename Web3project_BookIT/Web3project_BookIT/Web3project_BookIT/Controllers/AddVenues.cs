@@ -1,7 +1,7 @@
 ﻿using System;
 using Web3project_BookIT.Models;
 
-namespace Web3project_BookIT.Logic
+namespace Web3project_BookIT.Controllers
 {
     public class AddVenues
     {

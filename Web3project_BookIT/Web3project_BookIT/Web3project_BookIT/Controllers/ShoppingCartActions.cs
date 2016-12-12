@@ -5,7 +5,7 @@ using System.Web;
 using Web3project_BookIT.Models;
 
 //Personal code and help from ASP.Net Video Tutorials
-namespace Web3project_BookIT.Logic
+namespace Web3project_BookIT.Controllers
 {
     public class ShoppingCartActions : IDisposable
     {

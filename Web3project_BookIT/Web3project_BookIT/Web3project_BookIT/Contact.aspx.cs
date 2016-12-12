@@ -5,10 +5,11 @@ using System.Web.UI;
 using System.Data;
 using System.Configuration;
 using System.Data.SqlClient;
-using Web3project_BookIT.Logic;
+using Web3project_BookIT.Controllers;
 using Web3project_BookIT.Models;
 using System.Collections.Specialized;
 using System.Net;
+using System.Web.UI.WebControls;
 
 namespace Web3project_BookIT
 {
@@ -100,6 +101,8 @@ namespace Web3project_BookIT
         //Contact Us Form Sending to a gmail from an email
         protected void Submit(object sender, EventArgs e)
         {
+            //bookittestemail is the sender and receiver is adamleeplaysbball
+            //To test your own email just replace the receiver email with your own
             try
             {
                 MailMessage mm = new MailMessage("bookittestemail@gmail.com", "adamleeplaysbball@hotmail.com");
@@ -122,20 +125,25 @@ namespace Web3project_BookIT
             {
                 DisplayMessage.Text = "Your E-mail Did Not Send!";
             }
+        }
 
-            //string body = "From:"+Email.Text+"\n";
-            //body += "Subject:" + Subject.Text + "\n";
-            //body += "Message:" + Message.Text + "\n";
-            //var smtp = new SmtpClient();
-            //{
-            //    smtp.Host = "receive email, sender email";
-            //    smtp.Port = 587;
-            //    smtp.EnableSsl = true;
-            //    smtp.DeliveryMethod = SmtpDeliveryMethod.Network;
-            //    smtp.Credentials = new NetworkCredential(Email.Text, Name.Text);
-            //    smtp.Timeout = 20000;
-            //}
-            //smtp.Send(Email.Text, body);
+        protected void Clear(object sender, EventArgs e)
+        {
+            this.ClearForm(this);
+        }
+
+        private void ClearForm(Control control)
+        {
+            foreach (Control c in control.Controls)
+            {
+                var box = c as TextBox;
+                if (box != null)
+                {
+                    box.Text = string.Empty;
+                }
+
+                this.ClearForm(c);
+            }
         }
     }
 }

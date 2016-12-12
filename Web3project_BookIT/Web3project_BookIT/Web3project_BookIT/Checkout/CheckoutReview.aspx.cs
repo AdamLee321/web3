@@ -65,7 +65,7 @@ namespace Web3project_BookIT.Checkout
           _db.SaveChanges();
 
           // Get the shopping cart items and process them.
-          using (Logic.ShoppingCartActions usersShoppingCart = new Logic.ShoppingCartActions())
+          using (Controllers.ShoppingCartActions usersShoppingCart = new Controllers.ShoppingCartActions())
           {
             List<CartItem> myOrderList = usersShoppingCart.GetCartItems();
 

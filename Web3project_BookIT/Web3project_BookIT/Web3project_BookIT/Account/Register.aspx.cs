@@ -25,7 +25,7 @@ namespace Web3project_BookIT.Account
                 //manager.SendEmail(user.Id, "Confirm your account", "Please confirm your account by clicking <a href=\"" + callbackUrl + "\">here</a>.");
 
                 signInManager.SignIn( user, isPersistent: false, rememberBrowser: false);
-                using (Web3project_BookIT.Logic.ShoppingCartActions usersShoppingCart = new Web3project_BookIT.Logic.ShoppingCartActions())
+                using (Web3project_BookIT.Controllers.ShoppingCartActions usersShoppingCart = new Web3project_BookIT.Controllers.ShoppingCartActions())
                 {
                     String cartId = usersShoppingCart.GetCartId();
                     usersShoppingCart.MigrateCart(cartId, user.Id);

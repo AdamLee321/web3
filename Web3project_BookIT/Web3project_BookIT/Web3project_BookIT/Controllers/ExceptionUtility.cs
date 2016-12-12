@@ -2,7 +2,7 @@
 using System.IO;
 using System.Web;
 
-namespace Web3project_BookIT.Logic
+namespace Web3project_BookIT.Controllers
 {
     // Create our own utility for exceptions
     public sealed class ExceptionUtility

@@ -76,7 +76,7 @@ public class NVPAPICaller
         //encoder["PAYMENTREQUEST_0_CURRENCYCODE"] = "EUR";
 
         // Get the Shopping Cart Tickets
-        using (Web3project_BookIT.Logic.ShoppingCartActions myCartOrders = new Web3project_BookIT.Logic.ShoppingCartActions())
+        using (Web3project_BookIT.Controllers.ShoppingCartActions myCartOrders = new Web3project_BookIT.Controllers.ShoppingCartActions())
         {
             List<CartItem> myOrderList = myCartOrders.GetCartItems();
 
@@ -202,7 +202,7 @@ public class NVPAPICaller
         catch (Exception e)
         {
             // Log the exception.
-            Web3project_BookIT.Logic.ExceptionUtility.LogException(e, "HttpCall in PayPalFunction.cs");
+            Web3project_BookIT.Controllers.ExceptionUtility.LogException(e, "HttpCall in PayPalFunction.cs");
         }
 
         //Retrieve the Response returned from the NVP API call to PayPal.

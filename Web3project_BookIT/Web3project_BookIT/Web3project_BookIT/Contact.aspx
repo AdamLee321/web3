@@ -89,13 +89,13 @@ height: 16px;
                         <div class="col-md-offset-2 col-md-10">
                             <asp:Button runat="server" OnClick="Submit" Text="Send" CssClass="btn btn-default" />
                             <div class="divider"/>
-                            <asp:Button runat="server" OnClientClick="this.form.reset();return false;" Text="Clear" CssClass="btn btn-default" />
+                            <asp:Button runat="server" OnClick="Clear" Text="Clear" CssClass="btn btn-default" />
                         </div>
                         <p>
                         <asp:Label ID="DisplayMessage" runat="server" Visible="true" />
                         </p>
                     </div>
-                        
+                </div> 
             </section>
         </div>
         </div>

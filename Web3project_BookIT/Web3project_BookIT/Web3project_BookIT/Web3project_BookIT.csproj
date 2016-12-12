@@ -521,13 +521,13 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Logic\AddTickets.cs" />
-    <Compile Include="Logic\AddVenues.cs" />
-    <Compile Include="Logic\ExceptionUtility.cs" />
-    <Compile Include="Logic\PaypalFunctions.cs" />
-    <Compile Include="Logic\Roles.cs" />
-    <Compile Include="Logic\ShoppingCartActions.cs" />
-    <Compile Include="Logic\StripePayments.cs" />
+    <Compile Include="Controllers\AddTickets.cs" />
+    <Compile Include="Controllers\AddVenues.cs" />
+    <Compile Include="Controllers\ExceptionUtility.cs" />
+    <Compile Include="Controllers\PaypalFunctions.cs" />
+    <Compile Include="Controllers\Roles.cs" />
+    <Compile Include="Controllers\ShoppingCartActions.cs" />
+    <Compile Include="Controllers\StripePayments.cs" />
     <Compile Include="Models\CartItem.cs" />
     <Compile Include="Models\Category.cs" />
     <Compile Include="Models\IdentityModels.cs" />
@@ -607,7 +607,6 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="assets\fonts\" />
-    <Folder Include="Controllers\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
