@@ -20,6 +20,7 @@ namespace Web3project_BookIT
 {
     public partial class ShoppingCart : System.Web.UI.Page
     {
+        public delegate void MyDelegate(string var);
         protected void Page_Load(object sender, EventArgs e)
         {
             //var TicketPrice = Ticket.UnitPrice;
@@ -28,7 +29,7 @@ namespace Web3project_BookIT
             {
                 decimal cartTotal = 0; //Set cart equal to zero
                 cartTotal = usersShoppingCart.GetTotal();
-                if (cartTotal > 0)
+                if (cartTotal > 0 )
                 {
                     // Display Total.
                     lblTotal.Text = String.Format("{0:c}", cartTotal);

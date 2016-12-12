@@ -11,7 +11,7 @@ namespace Web3project_BookIT.Controllers
     {
         public string ShoppingCartId { get; set; }
 
-        private Models.TicketContext _db = new Models.TicketContext();
+        private TicketContext _db = new TicketContext();
 
         public const string CartSessionKey = "CartId";
 
@@ -109,7 +109,7 @@ namespace Web3project_BookIT.Controllers
 
         public void UpdateShoppingCartDatabase(String cartId, ShoppingCartUpdates[] CartItemUpdates)
         {
-            using (var db = new Web3project_BookIT.Models.TicketContext())
+            using (var db = new TicketContext())
             {
                 try
                 {
